@@ -1,0 +1,45 @@
+## is predicate
+
+<variables> is <expression>
+<numeric constant>  is <expression> 
+
+// examples:
+N is 6+1.		// N=7.
+7 is 6+1.		// true.
+
+
+## = Sign
+N = 6+1			// N = 6+1
+
+
+## =:=
+
+5=:=4+1.		// true
+
+## Prolog arithmetic opearation
+<const> is <exp.>
+N is 5+1		// N = 6
+N is 7-4		// N = 3
+N is 8/3		// N = 2.66
+N is 8//3		// N = 2
+N is 7 mod 3	// N = 3
+
+or i can do: <exp> =:=
+
+N is abs(123)	// 123 
+N is abs(-123)	// 123
+
+N is float(19)	// N = 19.0
+
+N is round(5.2)	// N = 5 
+N is round(5.7)	// N = 6
+
+
+// floor to lower decimal, 
+// celling to highest decimal
+// trancate is cancell the decimal
+N is celling(5.1)	// N = 6
+N is floor(5.9)		// N = 5
+N is truncate(5.7)	// N = 5
+
+
