@@ -1,0 +1,31 @@
+Multiplication Sequential:
+we check each bit in Q if it is 1 we add B then shift EAQ (E is the carry)
+if Q is 0 we just shift
+//combination circuit can be deduced from the operations
+
+Division:
+we first check if the bits in B divisor are greater than the same number of bits in A dividend
+if yes then the quotient Q has the same number of bits as B
+we keep adding a bit from A and checking again with B
+if A>=B we shift right B and subtract it with A and enter 1 in Q
+else we shift right B without subtracting and enter 0 in Q
+
+Floating Point:
+The floating point is stored in memory in the following format:
+[the sign][m][e]
+the sign: 1 for negative 0 for positive
+m: mantissa which is the floating point number when we move the point to the start of the number 1001.11 -> .100111
+so the mantissa is 1001110 (we add 0 at the end if it's positive, and 1 if it's negative)(and don't forget to put the mantissa between brackets and a small 2 at the end)
+e: exponent which is how many times have we moved the point to go the beginning of the number, in the case of 1001.11 we moved 4 times so the e=4
+m x 2^e = +(.1001110)2 x 2^+4
+align the mantissa means that we put them both on the same level
+(mantissa is stored with floating point at the start)
+.100111 x 2^+4
+.0111 x 2^+2
+--align--
+.100111 * 2^+4
+.000111 * 2^+4
+to normalize we just send the point of the result to the beginning and calculate the exponent
+for example if result = 100.10011 x 2^+3 we normalize it to be .10010011 x 2^+6
+
+Align the dividend; we only make this part in only one case which when the dividend is more than the divisor, in this case the quotient will be more than the divisor, so we'll shift right the dividend by one bit to be less than the divisor's value

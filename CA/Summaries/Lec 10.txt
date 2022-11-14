@@ -1,0 +1,151 @@
+General Register Organizations:
+===========================
+CPU is consists of ----> Registers / ALU / Control Unit (CU)
+
+CPU Organizations:
+	Single Accumlator Organization
+		---> When we make arithmetic or logic operation, we store 1 operand in the accumlator(AC)
+			and the other in register as DR then we execute operation.
+	General Register Organization
+		---> ALU can take inputs from any registers and store it's output in any register with Load = 1.
+		Also, the control word decides the microoperation that is going to occur in one clock cycle.
+		The mapping of the OPR(operation) in the Control word: S3 S2 S1 S0 Cin (as the connection for the ALU).
+	Stack Organization
+		---> Look in the section Below.
+================================================================================================
+Register Stack:
+============
+	Stack Organization
+		---> Bunch of registers (are numbered but not named).
+
+The first rectangle represents the push mechanism.
+
+The second rectangle represents the pop mechanism.
+
+SP ---> is a register that holds a number of the register that represents the top of the stack.
+
+The flipflops Full and Empty; They become 1 when SP = 0, but how can the SP = 0 when it is full? When the Register Stack is full(SP = 63), the SP will contain the binary number of 63, which will all be 1s, so when we add 1 to SP, which have a binary of all 1s, the new SP will be 0(SP has 6 bits to achieve 64 bits cause 2^6 = 64, so when adding 1 to it, SP won't find space to add 1, so SP will be = 0).
+
+We use it in assembly in processing of (make operations on) the floating point numbers(floating point arethmatic operations) (Circuit is always designed to take the 1st or the top 2 numbers from the stack)
+
+In integer arethmatic operations ---> we use General Register Organization(we store the two integers in the registers of the General Register Organization, then make operations, and then store the result in another or one of the used registers).
+========================================================================================================================================
+Memory Stack:
+=============
+It's used bec, OS gives each program a part of memory.
+
+Why we put the stack at the end of the memory?
+Because we put the program and data at the beginning of the memory, and as well as the stack at the end of the memory, so the empty space in between can be used to let the stack, or the heap, or the data/program grow.
+
+What/Where do we use the Stack for?
+We use it in the assembly programs to make function calls
+
+SP in Memory Stack vs SP in the Register Stack
+---> dec. when push         ---> inc. when push
+---> inc. when pop	    ---> dec. when pop
+==============================================
+Instruction Types:
+===============
+The format of the instruction depends on / being controlled by, the designer of the hardware, and not the programmer.
+Instruction can hold >1 address.
+Speed of execution or numebr of clock cycles doesn't depend on number of instructions.
+Each instruction may take many clock cycles, since the instruction will be turned into number of microoperations.
+
+Take care; in the AT&T syntax, the move operation goes into the one on the right, while the Intel syntax goes into the one on the left.
+
+Three-address instructions:
+Make the size of the program small, thus make it easer for the programmer to write the program, and also increase the readability
+
+Two-address instructions:
+Similar to the General Register Organizations.
+
+One-address instructions:
+Uses the AC(accumulator) Register to do its operations.
+
+Zero-address instructions:
+Always use the stack in the arethmatic and logic operations/instructions.
+Remember that it's the Memory address of the values that is being pushed, and not the actual value.
+The add operation/instruction has 3 parts, it pops the two values on the top of the stack, then added them and inserted them on the top. Ex; it popped B, then it popped A, then pushed the result of adding A+B onto the top of the stack
+
+The instructions can be addresses from the memory, and/or registers
+
+1-address instruction depends on accumlator.
+0-address instruction always use stack in arithmetic / logic operations.
+RISC instruction is 3-address instruction but only holds registers not memory addressing.
+		---> so the solution is to load memory addressing into registers, and store register into memory.
+=========================================================================
+Addressing Modes:
+================
+The mentioned example of the instruction in the picture, the instruction is made up from two bytes, byte 200, and 201.
+
+the instruction consists of 3 things, the opcode, the mode ,and the address/value
+
+The mode field specifies how the address part should be dealth with, for example; if it's implied-mode, we'll ignore the address field, if it's immediate-mode, we'll deal with the address field as an operand field instead(carries the actual value itself).
+
+Implied Mode ---> instructions that comprise (تضم) only an opcode without an operand (no register address) 
+[EX: INCA (“increment accumulator”) instruction. ... Recognizing that this is an implied instruction, the CPU executes it and continues on to the next instruction.
+Know the name of the Register from the name of the operation(the register is not excplicetly called, nor does it have the address)
+example: zero address instruction and register reference instruction.
+
+Immediate Mode ---> The address part of the instruction does not carry an address to be fetched from the memory, rather it carries the operand/value itself to be used by the opcode.
+	             ---> Is an instruction format that directly includes the data to be acted on as part of the instruction.
+	             ---> This form of operand access simplifies the instruction execution cycle since no additional fetches are required.
+
+Register Mode ---> The address part of the instruction carries the number of the register(in the pic, imagine that instead of 500 in address 201, there is 1(which means Register 1)).
+	---> Returns the bits that the register contains as the value.
+
+Register indirect Mode ---> The address part carries the number of the register to be used, but the bits that will be taken from that register will be used as the effective address(not the value) where we'll get the needed value(for example the address part has 1, so we'll go to R1 and get the bits in it, then use those bits as the address of the value to be taken from the memory)
+---> The effective address of the data is in the base register or an index register that is specified by the instruction.
+
+Autoincrement Mode ---> Similar to the Register indirect mode, the operand field carries the number of the Register to be used, then the bits in that register will be taken as the effective address(not the value).
+	---> But, after using the bits in the register to be used as the effective address, and get the needed value, it'll increment the effective address(value of the register) by 1, so that the next address can be used(as in an array).
+
+Autodecrement Mode ---> Similar to the Register indirect mode, the operand field carries the number of the Register to be used, then the bits in that register will be taken as the effective address(not the value).
+	---> But, before using the bits in the register to be used as the effective address, and get the needed value, it'll decrement the effective address(value of the register) by 1, and use the new effective address to get the value(if the value in the register is 400, it'll decrement, then get the value in address 399).
+
+-The next 3 addressing mode, adds the address field with the value of a register, but each mode uses a different register.
+
+Relative Address Mode ---> the effective address is calculated by adding the address in the instruction with the value in the PC register, but take care that the value in the PC is probably incremented, since when it calls the instruction, it automatically increases by 1 to fetch the next instruction.
+
+Indexed Mode ---> the effective address is calculated by adding the address in the instruction with the value in the XR register(index register).
+	--->The address might be the address of the first element of an array, and the XR carries the distance between the first element of the array and the element we want to get, so we use the XR address to jump to the needed element.
+	--->(The distance between the beginning address and the address of the operand is the index value stored in the index register)
+
+Base Register Mode ---> the effective address is calculated by adding the address with BR register that carries the address of the program.
+	---> Usage: if the we want to jump to the address 10, but the program moved to address 1000. the instruction will still jump to address 10, which is the old address. By using the Base Register Addressing mode, we'll have a register that keeps the start of the program as its value, then add the address with the value of BR, and get the effective address.
+	                 ---> EA= Base register + Address field value. PC= Base register + Relative value.
+the reason we use base register addressing mode, because it makes it easier for the operating system to move the location of the program as long as it also updates the BR register. Why not update the address of the instruction? to maintain the protection and the security of the program
+================================================================================================================================================
+Instruction Categories:
+===================
+or Types of operations -> the first 3 insturctions in the picture
+Data transfer instructions:
+load(LD): from memory to register
+move(MOV): from memory to register or from register to memory or register to register
+store(ST): from register to memory
+XCH: swap
+
+in the conditional branch instruction, focus on the Z flipflop(zero flipflop)
+=====================================================================
+Subroutines Interrupts:
+===================
+Subroutine = Number of microoperations
+
+External Interrupts ---> caused by devices (as printer)(input output interrupts)(outside of the CPU)
+Internal Interrupts ---> caused by programs (as division by 0, overflow(50/50), invalid operation code, protection violation(like someone wants to edit an instruction in the memeory))
+Software Interrupts ---> caused by programmer (as convertion from user mode to root)
+
+in conditional branch instruction;
+use higher and lower when using unsigned numbers
+use greater and less when using signed numbers
+=====================================================================
+CiscRisc:
+=======
+They are 2 main types of instruction sets.
+
+Cisc ---> Complex instruction set computer.(Rich characteristics)(It is better be used with microprogrammed control unit than hardwired control unit, as the number of instructions increase, the harder for the hardware designer to design the CPU, as the hardware circuits are expensive, have many components, and complex to connect with each other)
+Risc ---> Reduced instruction set computer.(Num 6. can occur if we use pipe lining, by using it, we'll be able to execute every instruction in nearly one cycle)(it'll be connected using hardwired, because it'll be faster than the microprogrammed, since the number of instructions are low, thus it will not be complicated(since it has small number of instructions))
+Hardwired is faster than microprogrammed? Because in the microprogrammed, when accessing the control unit, we'd take the something from the control memory, put it in a register, then execute the register, and this operation is looped every time we want to read something from the control unit, thus taking more time.
+
+Single-cycle instruction execution is achieved by pipelining
+================================================
