@@ -1,0 +1,78 @@
+(deftemplate person 
+    (slot age (type INTEGER) (default 18)) 
+    (multislot name (type STRING)) 
+    (slot gender (allowed-values f m))  ; f=female and m=male
+    (slot degree (type SYMBOL) (allowed-symbols none bsc msc phd))
+)
+
+
+(deffacts people
+   (person (name "Ali") (age 21) (gender m) (degree bsc))
+   (person (name "Mona" "Ali") )
+   (person (name "Ahmed" "Saleh") (age 14) (gender m) (degree msc)))
+
+
+(defrule army
+   (person (gender m) (name $?))
+   =>
+   (printout t "someone is eligible for army" crlf )) 
+
+
+(defrule army
+(person (gender m) (name $?name) (degree bsc|msc|phd))
+=>
+(printout t ?name "is eligible for army officer" crlf))
+
+OR
+
+(defrule army
+(person (gender m) (name $?name) (degree ~none))
+=>
+(printout t ?name "is eligible for army officer" crlf))
+
+
+
+
+(defrule army
+(person (gender m) (name $?name) (degree ?degree&bsc|msc|phd))
+=>
+(printout t ?name "is eligible for army officer as he holds a " ?degree " degree" crlf))
+
+
+x
+(defrule army
+    (person (gender m) (name $?name) (age ?age))
+    (test (> ?age 18))
+   =>
+    (printout t ?name "is eligible for army" crlf)
+)
+
+
+
+(deftemplate triangle (slot side1)(slot side2)(slot side3))
+(deffacts triangles
+(triangle (side1 3)(side2 4)(side3 3)))
+
+(defrule isosceles_tri
+	 (or (triangle (side1 ?s)(side2 ?s))
+		 (triangle (side1 ?s)(side3 ?s))
+		(triangle (side2 ?s)(side3 ?s))	
+	)
+   =>
+   (printout t "There is an isosceles triangle" crlf))
+
+
+
+
+(deffacts f (ctr 0))
+(defrule rul
+    ?num <- (ctr ?c)
+    (test (neq ?c 5))
+    =>
+    (bind ?new-c (+ ?c 1))
+    (printout t ?c crlf)
+    (retract ?num)
+    (assert (ctr ?new-c))
+    ;(printout t ?new-c crlf)
+    ;(facts)
+)
