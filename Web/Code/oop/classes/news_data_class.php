@@ -42,11 +42,8 @@ class news_data_class extends connection {
 		return $arr;
 		
 	}
-	
-	
-	
 
-	function deleteDataById($news_id)
+    function deleteDataById($news_id)
 	{
 		parent::connect();
 		$sql ="delete from news_data where id=$news_id";
@@ -60,23 +57,6 @@ class news_data_class extends connection {
 		{
 			return false;
 		}
-		
 	}
-
-
-	
-	
-	
 }
-
-
-
-
-
-
-
-
-
-
-
 ?>
