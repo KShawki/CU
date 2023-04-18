@@ -30,3 +30,25 @@ public class Client {
 
     }
 }
+
+
+
+
+
+thread t1 = new thread(); 
+
+t1.start 
+
+
+// --------------------------------
+
+class x implements Runnable {
+
+} 
+
+
+X x = new X(); 
+
+Thread thread = new Thread(x)
+
+thread.
