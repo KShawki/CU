@@ -1,0 +1,29 @@
+SIMD:
+stands for single instruction multiple data
+all processors(PE) are executing the same instruction given from master control unit on their local data(M)
+supported in intel and amd processors
+assembly is the best programming language to program the cpu
+if we do an operation on a big number it is divided into equal parts and each proccessor executes instruction on it then sends it to memory or register
+
+MIMD:
+stands for multiple instruction multiple data
+processors exectue different instuructions given from control unit on a memory module
+shared memory(memory bottleneck) is considered an issue so each memory module (MM) is only accessed by one processor at a time
+to solve the problem of choosing which processor should have access to module we use arbitration
+
+Serial arbitration:
+for each processor there is a bus arbitrer that controls whether the proccessor will have access to that module or not
+the bus arbiters are all present in the memory modules
+how it works:
+the module is accessed by the highest priority free processor
+1 is passed to PI of first bus arbiter
+if the processor is busy it passes the 1 to the PO to the next bus arbiter
+else it passes 0 to the PO to the next bus arbiter indicating that it took the process and then it sets the bus busy line to 1
+there are also instances where the the 1 is given to a specific proccessor doesn't have to be the one with highest prio and the same sequence of actions is applied
+
+parallel arbitration:
+if a proccessor wants to access a memory module it sets Req=1 which is then sent to the encoder
+the encoder then translates the input into the corresponding decimal (EX: bus arbiter 1 set Req=1 then encoder input will be 0001 from right to left which will output as 01)
+then the output of the encoder is given to the decoder which then outputs 1 to the corresponding bus arbiter's Ack
+if two bus arbiters send Req at the same time then the encoder chooses the one with the highest priority
+then when the bus arbiter recieves the Ack it sets the bus busy line to 1

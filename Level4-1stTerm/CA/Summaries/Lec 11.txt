@@ -1,0 +1,34 @@
+Pipeline Processing Example:
+========================
+The Number of clock cycle = no. of clock cycle per operation * no. of operations. (Default Method)
+The Number of clock cycle = n + k - 1.[no. of operations + no. of clock cycles per operation -1] (Pipeline Method) ---> much faster
+n + k - 1 in bigger number of operations(10k operations) can be approximated to n, so it's much better method than the normal one
+by using pipe lining, we made the number of clock cycles needed to execute all operations approximatly equal the number of operations
+do we use pipe lining for all operations? no, we only use it for operations that are very important and used in many iterations.
+==========================================================================================================
+Instruction Pipeline:
+=================
+S1 -> S4 each one is called segment.
+Using pipe line on an operation is called task
+Task = operation performed going thorugh all segments(all segments are called pipe line)(operation running through all segments on a specific input/index of an array, Ex: A1 * B1 + C1 <- task. A2 * B2 + C2 <- task.)
+Each row = the segments that is happening in each instruction
+Each colomn = clock cycle per segment
+when the program branches in while pipe lining, the following instruction won't be the correct instruction, because when jumping, we go to a different address in the memory, and in pipe lining, we fetch the next instruction while the execution segment of the branching instruction has not finished yet(so it can set the PC to the right address of the next instruction), thus fetching the wrong instruction, and that is not correct.
+When branching, we must wait till the instruction finishes(like at clock cycle 6 finishes for instruction 3) so that at the end of the execution, it'll set the right address of the next instruction that should be branched at in the PC(so it can be fetched and executed).
+The right thing to do, is when branching occurs, we postpone the fetching segment of the next instruction in the array(instruction 4) till the clock cycle of the branching instruction finishes(wait till after the execution segment of the instruction that has branch operation finishes, so it can set the right address of the instruction in PC).
+Things that slow down/postpone the pipe lining: 
+Example on Num.1: Lets say that instruction 1 wants to store value in memory(at EX segement), and instruction 2 wants to load something from the memory at the same time(at FO segment). We can't read and write on the memory at the same time, thus this is a conflicting operation, and the solution: Postpone instruction 2, so that the FO operation/segment can start at clock cycle 5(does not start loading from the memroy till instruction 1 finishes)
+===========================
+Delayed Load:
+============
+I ---> Fetch and decode
+A ---> ALU Operation
+E ---> Execute
+The solution for Data dependency conflict, is called pipeline timing with delayed load; and it'll basically add an no operation instruction after the load instructions, so that the instruction with the operation that uses the Registers will have the right values.
+When adding the no operation instruction, we shifted all the instructions after the no operation instructions.
+When finding a load instruction, we simply put a no operation instruction after it, so it can automatically fix the data dependency conflict
+====================
+Delayed Branch:
+==============
+Rearranging can't be made if the address that will be set in PC in the branch operation depends on the result of the addition or subtraction.
+===================================================================

@@ -1,0 +1,19 @@
+
+(deffacts initial-colors
+(colors red blue))
+
+(defrule  rule-1
+(colors red white blue)
+=>  (assert (rule 1 fires)) )
+
+(defrule rule-2
+(colors red blue)
+=>  (assert (rule 2 fires)) )
+
+(defrule rule-3
+(colors blue red)
+=>  (assert (rule 3 fires)) )
+
+(defrule rule-4
+(colors white red)
+=>  (assert (rule 4 fires)) )
