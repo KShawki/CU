@@ -1,0 +1,32 @@
+Hardwired Control Unit:
+======================
+Is used to implement (Design) the Control Unit through 2 Methods either Sequence Counter or Finite State Machine.
+
+Operation(Macro-operation) is composed of a sequence of Micro-operations.
+Any Macro-operation (as Addition) to be achieved ---> Smaller operations are executed first called Micro-operations (AR <-- PC).
+
+In Addition, we make 6 Micro-operations.
+We can make 2 Micro-operations in the same clock cycle.
+
+In case of "Direct Memory Addressing", we can let T4 = 1 instead of T3 = 1 (Nothing) to avoid one useless step.
+Finite State Machine ---> It means the machine has to transition from one state to another in to perform different actions (instead of sequence counter to avoid above problem).
+
+How Finite State Machine solve the useless T3 in case of "Direct Memory Addressing" in Memory Reference Instruction?
+	---> if you came to direct addressing case, change the state to be T4 = 1 instead of T3
+========================================================================================================================================================
+MicroprogrammedCU:
+====================
+Is used to implement (Design) the Control Unit.
+
+EA ---> Effective Address
+
+We will make a read-only Memory named Control Memory.
+We will add in it bunch of Micro-instructions.
+Macro-instruction is composed of sequence Micro-instructions.
+Each Micro-instruction ---> composed of 1 or > Micro-operations
+		   ---> executed at 1 clock cycle
+
+ORG 0 ---> 0 is the memory location where the next instruction will begin from.
+
+Hardwire is faster but more complex and expensive.
+=====================================================================

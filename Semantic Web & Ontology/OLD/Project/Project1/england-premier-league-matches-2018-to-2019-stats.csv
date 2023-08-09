@@ -1,0 +1,381 @@
+timestamp,date_GMT,status,attendance,home_team_name,away_team_name,referee,Game Week,Pre-Match PPG (Home),Pre-Match PPG (Away),home_ppg,away_ppg,home_team_goal_count,away_team_goal_count,total_goal_count,total_goals_at_half_time,home_team_goal_count_half_time,away_team_goal_count_half_time
+1533927600,Aug 10 2018 - 7:00pm,complete,74439,Manchester United,Leicester City,Andre Marriner,1,0,0,1.89,1.32,2,1,3,1,1,0
+1533987000,Aug 11 2018 - 11:30am,complete,51749,Newcastle United,Tottenham Hotspur,Martin Atkinson,1,0,0,1.32,1.74,1,2,3,3,1,2
+1533996000,Aug 11 2018 - 2:00pm,complete,10353,AFC Bournemouth,Cardiff City,Kevin Friend,1,0,0,1.53,0.74,2,0,2,1,1,0
+1533996000,Aug 11 2018 - 2:00pm,complete,24821,Fulham,Crystal Palace,Mike Dean,1,0,0,1.11,1.53,0,2,2,1,0,1
+1533996000,Aug 11 2018 - 2:00pm,complete,24121,Huddersfield Town,Chelsea,Chris Kavanagh,1,0,0,0.47,1.58,0,3,3,2,0,2
+1533996000,Aug 11 2018 - 2:00pm,complete,20051,Watford,Brighton & Hove Albion,Jonathan Moss,1,0,0,1.42,0.68,2,0,2,1,1,0
+1534005000,Aug 11 2018 - 4:30pm,complete,31231,Wolverhampton Wanderers,Everton,Craig Pawson,1,0,0,1.79,1.05,2,2,4,2,1,1
+1534077000,Aug 12 2018 - 12:30pm,complete,53235,Liverpool,West Ham United,Anthony Taylor,1,0,0,2.79,1.11,4,0,4,2,2,0
+1534077000,Aug 12 2018 - 12:30pm,complete,30784,Southampton,Burnley,Graham Scott,1,0,0,1.21,0.89,0,0,0,0,0,0
+1534086000,Aug 12 2018 - 3:00pm,complete,59934,Arsenal,Manchester City,Michael Oliver,1,0,0,2.37,2.32,0,2,2,1,0,1
+1534591800,Aug 18 2018 - 11:30am,complete,30720,Cardiff City,Newcastle United,Craig Pawson,2,0,0,1.05,1.05,0,0,0,0,0,0
+1534600800,Aug 18 2018 - 2:00pm,complete,38601,Everton,Southampton,Lee Mason,2,0,0,1.79,0.84,2,1,3,2,2,0
+1534600800,Aug 18 2018 - 2:00pm,complete,32043,Leicester City,Wolverhampton Wanderers,Mike Dean,2,0,0,1.42,1.21,2,0,2,2,2,0
+1534600800,Aug 18 2018 - 2:00pm,complete,58297,Tottenham Hotspur,Fulham,Anthony Taylor,2,0,0,2,0.26,3,1,4,1,1,0
+1534600800,Aug 18 2018 - 2:00pm,complete,56888,West Ham United,AFC Bournemouth,Stuart Attwell,2,0,0,1.63,0.84,1,2,3,1,1,0
+1534609800,Aug 18 2018 - 4:30pm,complete,40491,Chelsea,Arsenal,Martin Atkinson,2,0,0,2.21,1.32,3,2,5,4,2,2
+1534681800,Aug 19 2018 - 12:30pm,complete,18822,Burnley,Watford,Paul Tierney,2,0,0,1.21,1.21,1,3,4,2,1,1
+1534681800,Aug 19 2018 - 12:30pm,complete,54021,Manchester City,Huddersfield Town,Andre Marriner,2,0,0,2.84,0.37,6,1,7,4,3,1
+1534690800,Aug 19 2018 - 3:00pm,complete,30592,Brighton & Hove Albion,Manchester United,Kevin Friend,2,0,0,1.21,1.58,3,2,5,4,3,1
+1534791600,Aug 20 2018 - 7:00pm,complete,25750,Crystal Palace,Liverpool,Michael Oliver,2,0,0,1.05,2.32,0,2,2,1,0,1
+1535196600,Aug 25 2018 - 11:30am,complete,31222,Wolverhampton Wanderers,Manchester City,Martin Atkinson,3,1,3,1.79,2.32,1,1,2,0,0,0
+1535205600,Aug 25 2018 - 2:00pm,complete,10654,AFC Bournemouth,Everton,Lee Probert,3,3,1,1.53,1.05,2,2,4,0,0,0
+1535205600,Aug 25 2018 - 2:00pm,complete,59830,Arsenal,West Ham United,Graham Scott,3,0,0,2.37,1.11,3,1,4,2,1,1
+1535205600,Aug 25 2018 - 2:00pm,complete,21193,Huddersfield Town,Cardiff City,Michael Oliver,3,0,0,0.47,0.74,0,0,0,0,0,0
+1535205600,Aug 25 2018 - 2:00pm,complete,29925,Southampton,Leicester City,Jonathan Moss,3,1,0,1.21,1.32,1,2,3,0,0,0
+1535214600,Aug 25 2018 - 4:30pm,complete,53294,Liverpool,Brighton & Hove Albion,Chris Kavanagh,3,3,0,2.79,0.68,1,0,1,1,1,0
+1535286600,Aug 26 2018 - 12:30pm,complete,20014,Watford,Crystal Palace,Anthony Taylor,3,3,3,1.42,1.53,2,1,3,0,0,0
+1535295600,Aug 26 2018 - 3:00pm,complete,23438,Fulham,Burnley,David Coote,3,0,1,1.11,0.89,4,2,6,5,3,2
+1535295600,Aug 26 2018 - 3:00pm,complete,51791,Newcastle United,Chelsea,Paul Tierney,3,0,3,1.32,1.58,1,2,3,0,0,0
+1535396400,Aug 27 2018 - 7:00pm,complete,74400,Manchester United,Tottenham Hotspur,Craig Pawson,3,3,3,1.89,1.74,0,3,3,0,0,0
+1535801400,Sep 01 2018 - 11:30am,complete,32149,Leicester City,Liverpool,Paul Tierney,4,3,3,1.42,2.32,1,2,3,2,0,2
+1535810400,Sep 01 2018 - 2:00pm,complete,30526,Brighton & Hove Albion,Fulham,Lee Probert,4,3,0,1.21,0.26,2,2,4,1,0,1
+1535810400,Sep 01 2018 - 2:00pm,complete,40178,Chelsea,AFC Bournemouth,Lee Mason,4,3,3,2.21,0.84,2,0,2,0,0,0
+1535810400,Sep 01 2018 - 2:00pm,complete,25495,Crystal Palace,Southampton,Martin Atkinson,4,0,0,1.05,0.84,0,2,2,0,0,0
+1535810400,Sep 01 2018 - 2:00pm,complete,38767,Everton,Huddersfield Town,Stuart Attwell,4,3,0,1.79,0.37,1,1,2,2,1,1
+1535810400,Sep 01 2018 - 2:00pm,complete,59947,West Ham United,Wolverhampton Wanderers,Chris Kavanagh,4,0,0,1.63,1.21,0,1,1,0,0,0
+1535819400,Sep 01 2018 - 4:30pm,complete,53946,Manchester City,Newcastle United,Kevin Friend,4,3,1,2.84,1.05,2,1,3,2,1,1
+1535891400,Sep 02 2018 - 12:30pm,complete,32316,Cardiff City,Arsenal,Anthony Taylor,4,1,0,1.05,1.32,2,3,5,2,1,1
+1535900400,Sep 02 2018 - 3:00pm,complete,21525,Burnley,Manchester United,Jonathan Moss,4,0,0,1.21,1.58,0,2,2,2,0,2
+1535900400,Sep 02 2018 - 3:00pm,complete,20141,Watford,Tottenham Hotspur,Andre Marriner,4,3,3,1.42,1.74,2,1,3,0,0,0
+1537011000,Sep 15 2018 - 11:30am,complete,80188,Tottenham Hotspur,Liverpool,Michael Oliver,5,3,3,2,2.32,1,2,3,1,0,1
+1537020000,Sep 15 2018 - 2:00pm,complete,10543,AFC Bournemouth,Leicester City,Craig Pawson,5,2,1.5,1.53,1.32,4,2,6,3,3,0
+1537020000,Sep 15 2018 - 2:00pm,complete,40499,Chelsea,Cardiff City,Jonathan Moss,5,3,0.5,2.21,0.74,4,1,5,3,2,1
+1537020000,Sep 15 2018 - 2:00pm,complete,23696,Huddersfield Town,Crystal Palace,Lee Mason,5,0.5,1.5,0.47,1.53,0,1,1,1,0,1
+1537020000,Sep 15 2018 - 2:00pm,complete,53307,Manchester City,Fulham,Stuart Attwell,5,3,0.5,2.84,0.26,3,0,3,2,2,0
+1537020000,Sep 15 2018 - 2:00pm,complete,52165,Newcastle United,Arsenal,Lee Probert,5,0,1.5,1.32,1.32,1,2,3,0,0,0
+1537029000,Sep 15 2018 - 4:30pm,complete,20537,Watford,Manchester United,Mike Dean,5,3,1.5,1.42,1.58,1,2,3,2,0,2
+1537101000,Sep 16 2018 - 12:30pm,complete,30406,Wolverhampton Wanderers,Burnley,Andre Marriner,5,1,0.5,1.79,0.89,1,0,1,0,0,0
+1537110000,Sep 16 2018 - 3:00pm,complete,39161,Everton,West Ham United,Martin Atkinson,5,2,0,1.79,1.11,1,3,4,3,1,2
+1537210800,Sep 17 2018 - 7:00pm,complete,27742,Southampton,Brighton & Hove Albion,Anthony Taylor,5,0.5,0,1.21,0.68,2,2,4,1,1,0
+1537615800,Sep 22 2018 - 11:30am,complete,23418,Fulham,Watford,Martin Atkinson,6,1.5,3,1.11,1.21,1,1,2,1,0,1
+1537624800,Sep 22 2018 - 2:00pm,complete,18636,Burnley,AFC Bournemouth,Anthony Taylor,6,0,1.5,1.21,0.84,4,0,4,2,2,0
+1537624800,Sep 22 2018 - 2:00pm,complete,32321,Cardiff City,Manchester City,Michael Oliver,6,0.5,2,1.05,2.32,0,5,5,3,0,3
+1537624800,Sep 22 2018 - 2:00pm,complete,25679,Crystal Palace,Newcastle United,Andre Marriner,6,0,0.5,1.05,1.05,0,0,0,0,0,0
+1537624800,Sep 22 2018 - 2:00pm,complete,31676,Leicester City,Huddersfield Town,David Coote,6,1.5,0.5,1.42,0.37,3,1,4,2,1,1
+1537624800,Sep 22 2018 - 2:00pm,complete,50965,Liverpool,Southampton,Paul Tierney,6,3,1.5,2.79,0.84,3,0,3,3,3,0
+1537624800,Sep 22 2018 - 2:00pm,complete,74489,Manchester United,Wolverhampton Wanderers,Kevin Friend,6,1.5,1.5,1.89,1.21,1,1,2,1,1,0
+1537633800,Sep 22 2018 - 4:30pm,complete,30531,Brighton & Hove Albion,Tottenham Hotspur,Chris Kavanagh,6,2,2,1.21,1.74,1,2,3,1,0,1
+1537705800,Sep 23 2018 - 12:30pm,complete,56875,West Ham United,Chelsea,Mike Dean,6,0,3,1.63,1.58,0,0,0,0,0,0
+1537714800,Sep 23 2018 - 3:00pm,complete,59964,Arsenal,Everton,Jonathan Moss,6,1.5,1,2.37,1.05,2,0,2,0,0,0
+1538220600,Sep 29 2018 - 11:30am,complete,56938,West Ham United,Manchester United,Michael Oliver,7,0.33,2,1.63,1.58,3,1,4,2,2,0
+1538229600,Sep 29 2018 - 2:00pm,complete,60019,Arsenal,Watford,Anthony Taylor,7,2,2,2.37,1.21,2,0,2,0,0,0
+1538229600,Sep 29 2018 - 2:00pm,complete,38788,Everton,Fulham,Roger East,7,1.33,0.33,1.79,0.26,3,0,3,0,0,0
+1538229600,Sep 29 2018 - 2:00pm,complete,23885,Huddersfield Town,Tottenham Hotspur,Craig Pawson,7,0.33,2.25,0.47,1.74,0,2,2,2,0,2
+1538229600,Sep 29 2018 - 2:00pm,complete,54152,Manchester City,Brighton & Hove Albion,Lee Mason,7,3,0.33,2.84,0.68,2,0,2,1,1,0
+1538229600,Sep 29 2018 - 2:00pm,complete,51523,Newcastle United,Leicester City,Simon Hooper,7,0,1,1.32,1.32,0,2,2,1,0,1
+1538229600,Sep 29 2018 - 2:00pm,complete,31147,Wolverhampton Wanderers,Southampton,Stuart Attwell,7,1.67,1,1.79,0.84,2,0,2,0,0,0
+1538238600,Sep 29 2018 - 4:30pm,complete,40625,Chelsea,Liverpool,Andre Marriner,7,3,3,2.21,2.32,1,1,2,1,1,0
+1538319600,Sep 30 2018 - 3:00pm,complete,30411,Cardiff City,Burnley,Martin Atkinson,7,0.33,0.33,1.05,0.89,1,2,3,0,0,0
+1538420400,Oct 01 2018 - 7:00pm,complete,10199,AFC Bournemouth,Crystal Palace,Mike Dean,7,2.33,2,1.53,1.53,2,1,3,1,1,0
+1538766000,Oct 05 2018 - 7:00pm,complete,30544,Brighton & Hove Albion,West Ham United,Kevin Friend,8,1.33,1,1.21,1.11,1,0,1,1,1,0
+1538834400,Oct 06 2018 - 2:00pm,complete,20533,Burnley,Huddersfield Town,Chris Kavanagh,8,1,0.33,1.21,0.37,1,1,2,1,1,0
+1538834400,Oct 06 2018 - 2:00pm,complete,25715,Crystal Palace,Wolverhampton Wanderers,Michael Oliver,8,0.33,1.33,1.05,1.21,0,1,1,0,0,0
+1538834400,Oct 06 2018 - 2:00pm,complete,32007,Leicester City,Everton,Andre Marriner,8,2,0.67,1.42,1.05,1,2,3,2,1,1
+1538834400,Oct 06 2018 - 2:00pm,complete,43268,Tottenham Hotspur,Cardiff City,Mike Dean,8,1.5,0.33,2,0.74,1,0,1,1,1,0
+1538834400,Oct 06 2018 - 2:00pm,complete,20139,Watford,AFC Bournemouth,Jonathan Moss,8,2.25,1,1.42,0.84,0,4,4,3,0,3
+1538843400,Oct 06 2018 - 4:30pm,complete,74519,Manchester United,Newcastle United,Anthony Taylor,8,1.33,0.67,1.89,1.05,3,2,5,2,0,2
+1538910000,Oct 07 2018 - 11:00am,complete,25401,Fulham,Arsenal,Paul Tierney,8,1.33,2,1.11,1.32,1,5,6,2,1,1
+1538918100,Oct 07 2018 - 1:15pm,complete,27077,Southampton,Chelsea,Craig Pawson,8,0.67,2.33,1.21,1.58,0,3,3,1,0,1
+1538926200,Oct 07 2018 - 3:30pm,complete,52117,Liverpool,Manchester City,Martin Atkinson,8,3,2.33,2.79,2.32,0,0,0,0,0,0
+1540035000,Oct 20 2018 - 11:30am,complete,40721,Chelsea,Manchester United,Mike Dean,9,2.5,1.5,2.21,1.58,2,2,4,1,1,0
+1540044000,Oct 20 2018 - 2:00pm,complete,10986,AFC Bournemouth,Southampton,Lee Probert,9,2.5,0.75,1.53,0.84,0,0,0,0,0,0
+1540044000,Oct 20 2018 - 2:00pm,complete,29681,Cardiff City,Fulham,Kevin Friend,9,0.25,0.25,1.05,0.26,4,2,6,4,2,2
+1540044000,Oct 20 2018 - 2:00pm,complete,54094,Manchester City,Burnley,Jonathan Moss,9,3,1,2.84,0.89,5,0,5,1,1,0
+1540044000,Oct 20 2018 - 2:00pm,complete,50329,Newcastle United,Brighton & Hove Albion,Andre Marriner,9,0,0.25,1.32,0.68,0,1,1,1,0,1
+1540044000,Oct 20 2018 - 2:00pm,complete,56921,West Ham United,Tottenham Hotspur,Martin Atkinson,9,1,2.4,1.63,1.74,0,1,1,1,0,1
+1540044000,Oct 20 2018 - 2:00pm,complete,31144,Wolverhampton Wanderers,Watford,Lee Mason,9,2,1.33,1.79,1.21,0,2,2,2,0,2
+1540053000,Oct 20 2018 - 4:30pm,complete,24263,Huddersfield Town,Liverpool,Michael Oliver,9,0.25,2.5,0.47,2.32,0,1,1,1,0,1
+1540134000,Oct 21 2018 - 3:00pm,complete,38668,Everton,Crystal Palace,Anthony Taylor,9,1.75,1.5,1.79,1.53,2,0,2,0,0,0
+1540234800,Oct 22 2018 - 7:00pm,complete,59886,Arsenal,Leicester City,Chris Kavanagh,9,2.25,1.5,2.37,1.32,3,1,4,2,1,1
+1540648800,Oct 27 2018 - 2:00pm,complete,30654,Brighton & Hove Albion,Wolverhampton Wanderers,Anthony Taylor,10,1.75,1.75,1.21,1.21,1,0,1,0,0,0
+1540648800,Oct 27 2018 - 2:00pm,complete,25071,Fulham,AFC Bournemouth,Andre Marriner,10,1,1.5,1.11,0.84,0,3,3,1,0,1
+1540648800,Oct 27 2018 - 2:00pm,complete,53373,Liverpool,Cardiff City,Stuart Attwell,10,2.5,0.25,2.79,0.74,4,1,5,1,1,0
+1540648800,Oct 27 2018 - 2:00pm,complete,30736,Southampton,Newcastle United,Chris Kavanagh,10,0.5,0.5,1.21,1.05,0,0,0,0,0,0
+1540648800,Oct 27 2018 - 2:00pm,complete,20457,Watford,Huddersfield Town,Mike Dean,10,1.8,0.5,1.42,0.37,3,0,3,2,2,0
+1540657800,Oct 27 2018 - 4:30pm,complete,31848,Leicester City,West Ham United,Michael Oliver,10,1.5,0.75,1.42,1.11,1,1,2,1,0,1
+1540733400,Oct 28 2018 - 1:30pm,complete,21430,Burnley,Chelsea,Craig Pawson,10,1,2.5,1.21,1.58,0,4,4,1,0,1
+1540733400,Oct 28 2018 - 1:30pm,complete,25718,Crystal Palace,Arsenal,Martin Atkinson,10,0.25,2.25,1.05,1.32,2,2,4,1,1,0
+1540742400,Oct 28 2018 - 4:00pm,complete,74525,Manchester United,Everton,Jonathan Moss,10,1.75,1.25,1.89,1.05,2,1,3,1,1,0
+1540843200,Oct 29 2018 - 8:00pm,complete,56854,Tottenham Hotspur,Manchester City,Kevin Friend,10,2,2,2,2.32,0,1,1,1,0,1
+1541248200,Nov 03 2018 - 12:30pm,complete,10792,AFC Bournemouth,Manchester United,Paul Tierney,11,2.2,1.4,1.53,1.58,1,2,3,2,1,1
+1541257200,Nov 03 2018 - 3:00pm,complete,30877,Cardiff City,Leicester City,Lee Probert,11,0.8,1.2,1.05,1.32,0,1,1,0,0,0
+1541257200,Nov 03 2018 - 3:00pm,complete,38966,Everton,Brighton & Hove Albion,David Coote,11,2,0.8,1.79,0.68,3,1,4,2,1,1
+1541257200,Nov 03 2018 - 3:00pm,complete,49157,Newcastle United,Watford,Craig Pawson,11,0,1.75,1.32,1.21,1,0,1,0,0,0
+1541257200,Nov 03 2018 - 3:00pm,complete,56862,West Ham United,Burnley,Roger East,11,0.8,0.8,1.63,0.89,4,2,6,2,1,1
+1541266200,Nov 03 2018 - 5:30pm,complete,59993,Arsenal,Liverpool,Andre Marriner,11,2.4,2.6,2.37,2.32,1,1,2,0,0,0
+1541274300,Nov 03 2018 - 7:45pm,complete,31185,Wolverhampton Wanderers,Tottenham Hotspur,Mike Dean,11,1.6,2.5,1.79,1.74,2,3,5,2,0,2
+1541343600,Nov 04 2018 - 3:00pm,complete,53916,Manchester City,Southampton,Lee Mason,11,3,0.8,2.84,0.84,6,1,7,5,4,1
+1541347200,Nov 04 2018 - 4:00pm,complete,40407,Chelsea,Crystal Palace,Michael Oliver,11,2.2,1.2,2.21,1.53,3,1,4,1,1,0
+1541448000,Nov 05 2018 - 8:00pm,complete,17082,Huddersfield Town,Fulham,Anthony Taylor,11,0.2,0.2,0.47,0.26,1,0,1,1,1,0
+1541853000,Nov 10 2018 - 12:30pm,complete,29402,Cardiff City,Brighton & Hove Albion,Martin Atkinson,12,0.67,0.67,1.05,0.68,2,1,3,2,1,1
+1541862000,Nov 10 2018 - 3:00pm,complete,24069,Huddersfield Town,West Ham United,Chris Kavanagh,12,0.67,0.8,0.47,1.11,1,1,2,1,1,0
+1541862000,Nov 10 2018 - 3:00pm,complete,32184,Leicester City,Burnley,Mike Dean,12,1.4,0.67,1.42,0.89,0,0,0,0,0,0
+1541862000,Nov 10 2018 - 3:00pm,complete,49266,Newcastle United,AFC Bournemouth,Lee Probert,12,0.5,1.8,1.32,0.84,2,1,3,3,2,1
+1541862000,Nov 10 2018 - 3:00pm,complete,28153,Southampton,Watford,Simon Hooper,12,0.6,1.4,1.21,1.21,1,1,2,1,1,0
+1541871000,Nov 10 2018 - 5:30pm,complete,25685,Crystal Palace,Tottenham Hotspur,Jonathan Moss,12,0.4,2.57,1.05,1.74,0,1,1,0,0,0
+1541937600,Nov 11 2018 - 12:00pm,complete,53128,Liverpool,Fulham,Paul Tierney,12,2.6,0.17,2.79,0.26,2,0,2,1,1,0
+1541945700,Nov 11 2018 - 2:15pm,complete,40345,Chelsea,Everton,Kevin Friend,12,2.33,1,2.21,1.05,0,0,0,0,0,0
+1541953800,Nov 11 2018 - 4:30pm,complete,60030,Arsenal,Wolverhampton Wanderers,Stuart Attwell,12,2.17,1.4,2.37,1.21,1,1,2,1,0,1
+1541953800,Nov 11 2018 - 4:30pm,complete,54316,Manchester City,Manchester United,Anthony Taylor,12,3,1.67,2.84,1.58,3,1,4,1,1,0
+1543071600,Nov 24 2018 - 3:00pm,complete,30553,Brighton & Hove Albion,Leicester City,Chris Kavanagh,13,2,1.5,1.21,1.32,1,1,2,1,1,0
+1543071600,Nov 24 2018 - 3:00pm,complete,39139,Everton,Cardiff City,Paul Tierney,13,2.17,0.2,1.79,0.74,1,0,1,0,0,0
+1543071600,Nov 24 2018 - 3:00pm,complete,24603,Fulham,Southampton,Michael Oliver,13,0.8,0.67,1.11,0.84,3,2,5,3,2,1
+1543071600,Nov 24 2018 - 3:00pm,complete,74516,Manchester United,Crystal Palace,Lee Mason,13,2,1,1.89,1.53,0,0,0,0,0,0
+1543071600,Nov 24 2018 - 3:00pm,complete,20540,Watford,Liverpool,Jonathan Moss,13,2,2.33,1.42,2.32,0,3,3,0,0,0
+1543071600,Nov 24 2018 - 3:00pm,complete,56886,West Ham United,Manchester City,Andre Marriner,13,1.17,2.2,1.63,2.32,0,4,4,3,0,3
+1543080600,Nov 24 2018 - 5:30pm,complete,55465,Tottenham Hotspur,Chelsea,Martin Atkinson,13,1.5,2.6,2,1.58,3,1,4,2,2,0
+1543152600,Nov 25 2018 - 1:30pm,complete,10792,AFC Bournemouth,Arsenal,Craig Pawson,13,1.83,2,1.53,1.32,1,2,3,2,1,1
+1543161600,Nov 25 2018 - 4:00pm,complete,30130,Wolverhampton Wanderers,Huddersfield Town,Kevin Friend,13,1.33,0.4,1.79,0.37,0,2,2,1,0,1
+1543264200,Nov 26 2018 - 8:30pm,complete,20628,Burnley,Newcastle United,Anthony Taylor,13,0.8,0.6,1.21,1.05,1,2,3,3,1,2
+1543608000,Nov 30 2018 - 8:00pm,complete,30213,Cardiff City,Wolverhampton Wanderers,Andre Marriner,14,1,1.33,1.05,1.21,2,1,3,1,0,1
+1543676400,Dec 01 2018 - 3:00pm,complete,25098,Crystal Palace,Burnley,Lee Probert,14,0.33,0.71,1.05,0.89,2,0,2,1,1,0
+1543676400,Dec 01 2018 - 3:00pm,complete,22973,Huddersfield Town,Brighton & Hove Albion,Michael Oliver,14,0.71,0.57,0.47,0.68,1,2,3,2,1,1
+1543676400,Dec 01 2018 - 3:00pm,complete,31353,Leicester City,Watford,Graham Scott,14,1.33,1.33,1.42,1.21,2,0,2,2,2,0
+1543676400,Dec 01 2018 - 3:00pm,complete,54409,Manchester City,AFC Bournemouth,Stuart Attwell,14,3,1.5,2.84,0.84,3,1,4,2,1,1
+1543676400,Dec 01 2018 - 3:00pm,complete,51853,Newcastle United,West Ham United,Paul Tierney,14,0.86,0.83,1.32,1.11,0,3,3,1,0,1
+1543685400,Dec 01 2018 - 5:30pm,complete,30187,Southampton,Manchester United,Kevin Friend,14,0.67,1.43,1.21,1.58,2,2,4,4,2,2
+1543752000,Dec 02 2018 - 12:00pm,complete,40551,Chelsea,Fulham,Craig Pawson,14,2.14,0.14,2.21,0.26,2,0,2,1,1,0
+1543759500,Dec 02 2018 - 2:05pm,complete,59973,Arsenal,Tottenham Hotspur,Mike Dean,14,2,2.63,2.37,1.74,4,2,6,3,1,2
+1543767300,Dec 02 2018 - 4:15pm,complete,51756,Liverpool,Everton,Chris Kavanagh,14,2.67,1,2.79,1.05,1,0,1,0,0,0
+1543952700,Dec 04 2018 - 7:45pm,complete,9980,AFC Bournemouth,Huddersfield Town,Roger East,15,1.57,0.83,1.53,0.37,2,1,3,3,2,1
+1543952700,Dec 04 2018 - 7:45pm,complete,29663,Brighton & Hove Albion,Crystal Palace,Kevin Friend,15,1.83,1,1.21,1.53,3,1,4,3,3,0
+1543952700,Dec 04 2018 - 7:45pm,complete,56811,West Ham United,Cardiff City,Graham Scott,15,1,0.17,1.63,0.74,3,1,4,0,0,0
+1543953600,Dec 04 2018 - 8:00pm,complete,20389,Watford,Manchester City,Paul Tierney,15,1.71,2.33,1.42,2.32,1,2,3,1,0,1
+1544039100,Dec 05 2018 - 7:45pm,complete,21741,Burnley,Liverpool,Stuart Attwell,15,0.67,2.43,1.21,2.32,1,3,4,0,0,0
+1544039100,Dec 05 2018 - 7:45pm,complete,22881,Fulham,Leicester City,David Coote,15,1.17,1.43,1.11,1.32,1,1,2,1,1,0
+1544039100,Dec 05 2018 - 7:45pm,complete,31300,Wolverhampton Wanderers,Chelsea,Jonathan Moss,15,1.14,2.17,1.79,1.58,2,1,3,1,0,1
+1544039100,Dec 05 2018 - 7:45pm,complete,39350,Everton,Newcastle United,Lee Mason,15,2.29,1,1.79,1.05,1,1,2,2,1,1
+1544040000,Dec 05 2018 - 8:00pm,complete,74507,Manchester United,Arsenal,Andre Marriner,15,1.83,2.17,1.89,1.32,2,2,4,2,1,1
+1544040000,Dec 05 2018 - 8:00pm,complete,33012,Tottenham Hotspur,Southampton,Anthony Taylor,15,1.8,0.57,2,0.84,3,1,4,1,1,0
+1544272200,Dec 08 2018 - 12:30pm,complete,10752,AFC Bournemouth,Liverpool,Lee Mason,16,1.75,2.5,1.53,2.32,0,4,4,1,0,1
+1544281200,Dec 08 2018 - 3:00pm,complete,59893,Arsenal,Huddersfield Town,Paul Tierney,16,2.13,0.71,2.37,0.37,1,0,1,0,0,0
+1544281200,Dec 08 2018 - 3:00pm,complete,18497,Burnley,Brighton & Hove Albion,Martin Atkinson,16,0.57,0.88,1.21,0.68,1,0,1,1,1,0
+1544281200,Dec 08 2018 - 3:00pm,complete,30067,Cardiff City,Southampton,Jonathan Moss,16,1.25,0.5,1.05,0.84,1,0,1,0,0,0
+1544281200,Dec 08 2018 - 3:00pm,complete,74523,Manchester United,Fulham,Lee Probert,16,1.71,0.13,1.89,0.26,4,1,5,3,3,0
+1544281200,Dec 08 2018 - 3:00pm,complete,56995,West Ham United,Crystal Palace,Anthony Taylor,16,1.25,0.88,1.63,1.53,3,2,5,1,0,1
+1544290200,Dec 08 2018 - 5:30pm,complete,40571,Chelsea,Manchester City,Michael Oliver,16,2.25,2.43,2.21,2.32,2,0,2,1,1,0
+1544298300,Dec 08 2018 - 7:45pm,complete,31957,Leicester City,Tottenham Hotspur,Craig Pawson,16,1.57,2.33,1.42,1.74,0,2,2,1,0,1
+1544371200,Dec 09 2018 - 4:00pm,complete,50223,Newcastle United,Wolverhampton Wanderers,Mike Dean,16,0.75,1.14,1.32,1.21,1,2,3,2,1,1
+1544472000,Dec 10 2018 - 8:00pm,complete,38400,Everton,Watford,Kevin Friend,16,2.13,1.14,1.79,1.21,2,2,4,1,1,0
+1544877000,Dec 15 2018 - 12:30pm,complete,54173,Manchester City,Everton,Craig Pawson,17,3,0.86,2.84,1.05,3,1,4,1,1,0
+1544886000,Dec 15 2018 - 3:00pm,complete,24738,Crystal Palace,Leicester City,Michael Oliver,17,0.71,1.38,1.05,1.32,1,0,1,1,1,0
+1544886000,Dec 15 2018 - 3:00pm,complete,24036,Huddersfield Town,Newcastle United,Anthony Taylor,17,0.63,1,0.47,1.05,0,1,1,0,0,0
+1544886000,Dec 15 2018 - 3:00pm,complete,41645,Tottenham Hotspur,Burnley,Graham Scott,17,2,0.63,2,0.89,1,0,1,0,0,0
+1544886000,Dec 15 2018 - 3:00pm,complete,20032,Watford,Cardiff City,Andy Madley,17,1.5,0.14,1.42,0.74,3,2,5,1,1,0
+1544886000,Dec 15 2018 - 3:00pm,complete,30997,Wolverhampton Wanderers,AFC Bournemouth,Simon Hooper,17,1.38,1.29,1.79,0.84,2,0,2,1,1,0
+1544895000,Dec 15 2018 - 5:30pm,complete,24081,Fulham,West Ham United,Mike Dean,17,1.14,1.14,1.11,1.11,0,2,2,2,0,2
+1544967000,Dec 16 2018 - 1:30pm,complete,30645,Brighton & Hove Albion,Chelsea,Stuart Attwell,17,2,1.86,1.21,1.58,1,2,3,2,0,2
+1544967000,Dec 16 2018 - 1:30pm,complete,29497,Southampton,Arsenal,Chris Kavanagh,17,0.71,2,1.21,1.32,3,2,5,3,2,1
+1544976000,Dec 16 2018 - 4:00pm,complete,52908,Liverpool,Manchester United,Martin Atkinson,17,2.71,1.38,2.79,1.58,3,1,4,2,1,1
+1545422400,Dec 21 2018 - 8:00pm,complete,31358,Wolverhampton Wanderers,Liverpool,Craig Pawson,18,1.56,2.56,1.79,2.32,0,2,2,1,0,1
+1545481800,Dec 22 2018 - 12:30pm,complete,59493,Arsenal,Burnley,Kevin Friend,18,2.22,0.56,2.37,0.89,3,1,4,1,1,0
+1545490800,Dec 22 2018 - 3:00pm,complete,10491,AFC Bournemouth,Brighton & Hove Albion,Mike Dean,18,1.56,0.78,1.53,0.68,2,0,2,1,1,0
+1545490800,Dec 22 2018 - 3:00pm,complete,40558,Chelsea,Leicester City,Lee Probert,18,2.33,1.22,2.21,1.32,0,1,1,0,0,0
+1545490800,Dec 22 2018 - 3:00pm,complete,22394,Huddersfield Town,Southampton,Stuart Attwell,18,0.56,0.44,0.47,0.84,1,3,4,2,0,2
+1545490800,Dec 22 2018 - 3:00pm,complete,54340,Manchester City,Crystal Palace,Andre Marriner,18,3,0.78,2.84,1.53,2,3,5,3,1,2
+1545490800,Dec 22 2018 - 3:00pm,complete,51237,Newcastle United,Fulham,Martin Atkinson,18,0.67,0.11,1.32,0.26,0,0,0,0,0,0
+1545490800,Dec 22 2018 - 3:00pm,complete,56833,West Ham United,Watford,Lee Mason,18,1.44,1.13,1.63,1.21,0,2,2,1,0,1
+1545499800,Dec 22 2018 - 5:30pm,complete,33028,Cardiff City,Manchester United,Michael Oliver,18,1.44,1.22,1.05,1.58,1,5,6,4,1,3
+1545580800,Dec 23 2018 - 4:00pm,complete,39319,Everton,Tottenham Hotspur,Paul Tierney,18,2,2.4,1.79,1.74,2,6,8,4,1,3
+1545827400,Dec 26 2018 - 12:30pm,complete,24382,Fulham,Wolverhampton Wanderers,Andre Marriner,19,1,1.38,1.11,1.21,1,1,2,0,0,0
+1545836400,Dec 26 2018 - 3:00pm,complete,21484,Burnley,Everton,Michael Oliver,19,0.88,0.75,1.21,1.05,1,5,6,4,1,3
+1545836400,Dec 26 2018 - 3:00pm,complete,25206,Crystal Palace,Cardiff City,Lee Probert,19,1,0.13,1.05,0.74,0,0,0,0,0,0
+1545836400,Dec 26 2018 - 3:00pm,complete,32090,Leicester City,Manchester City,Mike Dean,19,1.38,2.13,1.42,2.32,2,1,3,2,1,1
+1545836400,Dec 26 2018 - 3:00pm,complete,53318,Liverpool,Newcastle United,Graham Scott,19,2.75,1.25,2.79,1.05,4,0,4,1,1,0
+1545836400,Dec 26 2018 - 3:00pm,complete,74523,Manchester United,Huddersfield Town,Jonathan Moss,19,1.88,0.63,1.89,0.37,3,1,4,1,1,0
+1545836400,Dec 26 2018 - 3:00pm,complete,45154,Tottenham Hotspur,AFC Bournemouth,Chris Kavanagh,19,2.14,1.13,2,0.84,5,0,5,3,3,0
+1545844500,Dec 26 2018 - 5:15pm,complete,30608,Brighton & Hove Albion,Arsenal,Anthony Taylor,19,1.75,1.75,1.21,1.32,1,1,2,2,1,1
+1545852600,Dec 26 2018 - 7:30pm,complete,20415,Watford,Chelsea,Martin Atkinson,19,1.67,2,1.42,1.58,1,2,3,2,1,1
+1545939900,Dec 27 2018 - 7:45pm,complete,31654,Southampton,West Ham United,Craig Pawson,19,1,1.38,1.21,1.11,1,2,3,0,0,0
+1546095600,Dec 29 2018 - 3:00pm,complete,30597,Brighton & Hove Albion,Everton,Andy Madley,20,1.67,1,1.21,1.05,1,0,1,0,0,0
+1546095600,Dec 29 2018 - 3:00pm,complete,24423,Fulham,Huddersfield Town,Kevin Friend,20,1,0.56,1.11,0.37,1,0,1,0,0,0
+1546095600,Dec 29 2018 - 3:00pm,complete,32047,Leicester City,Cardiff City,Simon Hooper,20,1.56,0.22,1.42,0.74,0,1,1,0,0,0
+1546095600,Dec 29 2018 - 3:00pm,complete,46356,Tottenham Hotspur,Wolverhampton Wanderers,Stuart Attwell,20,2.25,1.33,2,1.21,1,3,4,1,1,0
+1546095600,Dec 29 2018 - 3:00pm,complete,20336,Watford,Newcastle United,Roger East,20,1.5,1.11,1.42,1.05,1,1,2,1,0,1
+1546104600,Dec 29 2018 - 5:30pm,complete,53326,Liverpool,Arsenal,Michael Oliver,20,2.78,1.67,2.79,1.32,5,1,6,5,4,1
+1546171200,Dec 30 2018 - 12:00pm,complete,25781,Crystal Palace,Chelsea,Craig Pawson,20,1,2.11,1.05,1.58,0,1,1,0,0,0
+1546179300,Dec 30 2018 - 2:15pm,complete,20933,Burnley,West Ham United,David Coote,20,0.78,1.56,1.21,1.11,2,0,2,2,2,0
+1546179300,Dec 30 2018 - 2:15pm,complete,31381,Southampton,Manchester City,Paul Tierney,20,0.89,1.89,1.21,2.32,1,3,4,4,1,3
+1546187400,Dec 30 2018 - 4:30pm,complete,74556,Manchester United,AFC Bournemouth,Lee Mason,20,2,1,1.89,0.84,4,1,5,4,3,1
+1546345800,Jan 01 2019 - 12:30pm,complete,39052,Everton,Leicester City,Martin Atkinson,21,1.8,1.4,1.79,1.32,0,1,1,0,0,0
+1546354800,Jan 01 2019 - 3:00pm,complete,59887,Arsenal,Fulham,Graham Scott,21,2.3,0.2,2.37,0.26,4,1,5,1,1,0
+1546363800,Jan 01 2019 - 5:30pm,complete,32485,Cardiff City,Tottenham Hotspur,Kevin Friend,21,1.3,2.45,1.05,1.74,0,3,3,3,0,3
+1546458300,Jan 02 2019 - 7:45pm,complete,40668,Chelsea,Southampton,Jonathan Moss,21,2.1,0.7,2.21,0.84,0,0,0,0,0,0
+1546458300,Jan 02 2019 - 7:45pm,complete,23715,Huddersfield Town,Burnley,Mike Dean,21,0.5,0.5,0.47,0.89,1,2,3,2,1,1
+1546458300,Jan 02 2019 - 7:45pm,complete,59870,West Ham United,Brighton & Hove Albion,Chris Kavanagh,21,1.3,0.7,1.63,0.68,2,2,4,0,0,0
+1546458300,Jan 02 2019 - 7:45pm,complete,30666,Wolverhampton Wanderers,Crystal Palace,Roger East,21,1.4,1,1.79,1.53,0,2,2,0,0,0
+1546459200,Jan 02 2019 - 8:00pm,complete,10261,AFC Bournemouth,Watford,David Coote,21,1.7,1.33,1.53,1.21,3,3,6,6,3,3
+1546459200,Jan 02 2019 - 8:00pm,complete,52217,Newcastle United,Manchester United,Andre Marriner,21,0.7,1.4,1.32,1.58,0,2,2,0,0,0
+1546545600,Jan 03 2019 - 8:00pm,complete,54511,Manchester City,Liverpool,Anthony Taylor,21,2.7,2.6,2.84,2.32,2,1,3,1,1,0
+1547296200,Jan 12 2019 - 12:30pm,complete,59946,West Ham United,Arsenal,Jonathan Moss,22,1.27,1.5,1.63,1.32,1,0,1,0,0,0
+1547305200,Jan 12 2019 - 3:00pm,complete,30862,Brighton & Hove Albion,Liverpool,Kevin Friend,22,1.8,2.36,1.21,2.32,0,1,1,0,0,0
+1547305200,Jan 12 2019 - 3:00pm,complete,19316,Burnley,Fulham,Martin Atkinson,22,1,0.18,1.21,0.26,2,1,3,3,2,1
+1547305200,Jan 12 2019 - 3:00pm,complete,30725,Cardiff City,Huddersfield Town,Lee Mason,22,1.18,0.5,1.05,0.37,0,0,0,0,0,0
+1547305200,Jan 12 2019 - 3:00pm,complete,25010,Crystal Palace,Watford,Paul Tierney,22,0.9,1.3,1.05,1.21,1,2,3,1,1,0
+1547305200,Jan 12 2019 - 3:00pm,complete,31491,Leicester City,Southampton,Michael Oliver,22,1.4,0.73,1.42,0.84,1,2,3,2,0,2
+1547314200,Jan 12 2019 - 5:30pm,complete,40491,Chelsea,Newcastle United,Chris Kavanagh,22,2,1.1,2.21,1.05,2,1,3,2,1,1
+1547388900,Jan 13 2019 - 2:15pm,complete,38113,Everton,AFC Bournemouth,Anthony Taylor,22,1.64,0.9,1.79,0.84,2,0,2,0,0,0
+1547397000,Jan 13 2019 - 4:30pm,complete,80062,Tottenham Hotspur,Manchester United,Mike Dean,22,2,1.55,2,1.58,0,1,1,1,0,1
+1547496000,Jan 14 2019 - 8:00pm,complete,54171,Manchester City,Wolverhampton Wanderers,Craig Pawson,22,2.73,1.5,2.84,1.21,3,0,3,2,2,0
+1547901000,Jan 19 2019 - 12:30pm,complete,31278,Wolverhampton Wanderers,Leicester City,Chris Kavanagh,23,1.27,1.55,1.79,1.32,4,3,7,2,2,0
+1547910000,Jan 19 2019 - 3:00pm,complete,10495,AFC Bournemouth,West Ham United,Simon Hooper,23,1.64,1.4,1.53,1.11,2,0,2,0,0,0
+1547910000,Jan 19 2019 - 3:00pm,complete,53171,Liverpool,Crystal Palace,Jonathan Moss,23,2.8,1.18,2.79,1.53,4,3,7,1,0,1
+1547910000,Jan 19 2019 - 3:00pm,complete,74532,Manchester United,Brighton & Hove Albion,Paul Tierney,23,2.1,0.73,1.89,0.68,2,1,3,2,2,0
+1547910000,Jan 19 2019 - 3:00pm,complete,49864,Newcastle United,Cardiff City,Stuart Attwell,23,0.64,0.5,1.32,0.74,3,0,3,1,1,0
+1547910000,Jan 19 2019 - 3:00pm,complete,29989,Southampton,Everton,Graham Scott,23,0.8,0.9,1.21,1.05,2,1,3,0,0,0
+1547910000,Jan 19 2019 - 3:00pm,complete,19510,Watford,Burnley,Michael Oliver,23,1.45,0.73,1.42,0.89,0,0,0,0,0,0
+1547919000,Jan 19 2019 - 5:30pm,complete,59979,Arsenal,Chelsea,Anthony Taylor,23,2.36,2.2,2.37,1.58,2,0,2,2,2,0
+1547991000,Jan 20 2019 - 1:30pm,complete,24190,Huddersfield Town,Manchester City,Andre Marriner,23,0.45,2,0.47,2.32,0,3,3,1,0,1
+1548000000,Jan 20 2019 - 4:00pm,complete,24807,Fulham,Tottenham Hotspur,Craig Pawson,23,1.2,2.5,1.11,1.74,1,2,3,1,1,0
+1548791100,Jan 29 2019 - 7:45pm,complete,59933,Arsenal,Cardiff City,Mike Dean,24,2.42,0.45,2.37,0.74,2,1,3,0,0,0
+1548791100,Jan 29 2019 - 7:45pm,complete,22008,Fulham,Brighton & Hove Albion,Lee Probert,24,1.09,0.67,1.11,0.68,4,2,6,2,0,2
+1548791100,Jan 29 2019 - 7:45pm,complete,23699,Huddersfield Town,Everton,Stuart Attwell,24,0.42,0.82,0.47,1.05,0,1,1,1,0,1
+1548791100,Jan 29 2019 - 7:45pm,complete,31122,Wolverhampton Wanderers,West Ham United,David Coote,24,1.42,1.27,1.79,1.11,3,0,3,0,0,0
+1548792000,Jan 29 2019 - 8:00pm,complete,74529,Manchester United,Burnley,Jonathan Moss,24,2.18,0.75,1.89,0.89,2,2,4,0,0,0
+1548792000,Jan 29 2019 - 8:00pm,complete,50861,Newcastle United,Manchester City,Paul Tierney,24,0.83,2.09,1.32,2.32,2,1,3,1,0,1
+1548877500,Jan 30 2019 - 7:45pm,complete,10227,AFC Bournemouth,Chelsea,Roger East,24,1.75,2,1.53,1.58,4,0,4,0,0,0
+1548877500,Jan 30 2019 - 7:45pm,complete,28339,Southampton,Crystal Palace,Andre Marriner,24,1,1.08,1.21,1.53,1,1,2,1,0,1
+1548878400,Jan 30 2019 - 8:00pm,complete,53092,Liverpool,Leicester City,Martin Atkinson,24,2.82,1.42,2.79,1.32,1,1,2,2,1,1
+1548878400,Jan 30 2019 - 8:00pm,complete,29164,Tottenham Hotspur,Watford,Graham Scott,24,1.8,1.45,2,1.21,2,1,3,1,0,1
+1549110600,Feb 02 2019 - 12:30pm,complete,41219,Tottenham Hotspur,Newcastle United,Andre Marriner,25,1.91,1,2,1.05,1,0,1,0,0,0
+1549119600,Feb 02 2019 - 3:00pm,complete,30414,Brighton & Hove Albion,Watford,Simon Hooper,25,1.64,1.33,1.21,1.21,0,0,0,0,0,0
+1549119600,Feb 02 2019 - 3:00pm,complete,19787,Burnley,Southampton,Anthony Taylor,25,1.18,0.92,1.21,0.84,1,1,2,0,0,0
+1549119600,Feb 02 2019 - 3:00pm,complete,40626,Chelsea,Huddersfield Town,Paul Tierney,25,2.08,0.55,2.21,0.37,5,0,5,2,2,0
+1549119600,Feb 02 2019 - 3:00pm,complete,25355,Crystal Palace,Fulham,Michael Oliver,25,0.82,0.17,1.05,0.26,2,0,2,1,1,0
+1549119600,Feb 02 2019 - 3:00pm,complete,39380,Everton,Wolverhampton Wanderers,Lee Mason,25,1.75,1.36,1.79,1.21,1,3,4,3,1,2
+1549128600,Feb 02 2019 - 5:30pm,complete,31939,Cardiff City,AFC Bournemouth,Jonathan Moss,25,1.17,0.82,1.05,0.84,2,0,2,1,1,0
+1549202700,Feb 03 2019 - 2:05pm,complete,32148,Leicester City,Manchester United,Mike Dean,25,1.27,1.67,1.42,1.58,0,1,1,1,0,1
+1549211400,Feb 03 2019 - 4:30pm,complete,54483,Manchester City,Arsenal,Martin Atkinson,25,2.75,1.36,2.84,1.32,3,1,4,3,2,1
+1549310400,Feb 04 2019 - 8:00pm,complete,59903,West Ham United,Liverpool,Kevin Friend,25,1.42,2.42,1.63,2.32,1,1,2,2,1,1
+1549482300,Feb 06 2019 - 7:45pm,complete,39322,Everton,Manchester City,Craig Pawson,27,1.62,1.92,1.79,2.32,0,2,2,1,0,1
+1549715400,Feb 09 2019 - 12:30pm,complete,25001,Fulham,Manchester United,Paul Tierney,26,1.25,1.77,1.11,1.58,0,3,3,2,0,2
+1549724400,Feb 09 2019 - 3:00pm,complete,25552,Crystal Palace,West Ham United,Craig Pawson,26,1,1.17,1.05,1.11,1,1,2,1,0,1
+1549724400,Feb 09 2019 - 3:00pm,complete,24182,Huddersfield Town,Arsenal,Jonathan Moss,26,0.38,1.25,0.47,1.32,1,2,3,2,0,2
+1549724400,Feb 09 2019 - 3:00pm,complete,53178,Liverpool,AFC Bournemouth,Anthony Taylor,26,2.67,0.75,2.79,0.84,3,0,3,2,2,0
+1549724400,Feb 09 2019 - 3:00pm,complete,31438,Southampton,Cardiff City,Martin Atkinson,26,1,0.42,1.21,0.74,1,2,3,0,0,0
+1549724400,Feb 09 2019 - 3:00pm,complete,20333,Watford,Everton,Lee Probert,26,1.42,1,1.42,1.05,1,0,1,0,0,0
+1549733400,Feb 09 2019 - 5:30pm,complete,29323,Brighton & Hove Albion,Burnley,Stuart Attwell,26,1.58,0.77,1.21,0.89,1,3,4,1,0,1
+1549805400,Feb 10 2019 - 1:30pm,complete,44154,Tottenham Hotspur,Leicester City,Michael Oliver,26,2,1.38,2,1.32,3,1,4,1,1,0
+1549814400,Feb 10 2019 - 4:00pm,complete,54452,Manchester City,Chelsea,Mike Dean,26,2.77,1.83,2.84,1.58,6,0,6,4,4,0
+1549915200,Feb 11 2019 - 8:00pm,complete,30687,Wolverhampton Wanderers,Newcastle United,Graham Scott,26,1.54,0.92,1.79,1.05,1,1,2,0,0,0
+1550864700,Feb 22 2019 - 7:45pm,complete,30387,Cardiff City,Watford,Simon Hooper,27,1.31,1.31,1.05,1.21,1,5,6,1,0,1
+1550864700,Feb 22 2019 - 7:45pm,complete,59950,West Ham United,Fulham,Lee Mason,27,1.38,0.15,1.63,0.26,3,1,4,3,2,1
+1550925000,Feb 23 2019 - 12:30pm,complete,21338,Burnley,Tottenham Hotspur,Mike Dean,27,1.17,2.54,1.21,1.74,2,1,3,0,0,0
+1550934000,Feb 23 2019 - 3:00pm,complete,10671,AFC Bournemouth,Wolverhampton Wanderers,Roger East,27,1.85,1.5,1.53,1.21,1,1,2,1,1,0
+1550934000,Feb 23 2019 - 3:00pm,complete,52174,Newcastle United,Huddersfield Town,Kevin Friend,27,1,0.5,1.32,0.37,2,0,2,0,0,0
+1550943000,Feb 23 2019 - 5:30pm,complete,31778,Leicester City,Crystal Palace,Anthony Taylor,27,1.17,1.08,1.42,1.53,1,4,5,1,0,1
+1551017100,Feb 24 2019 - 2:05pm,complete,59877,Arsenal,Southampton,Graham Scott,27,2.46,0.92,2.37,0.84,2,0,2,2,2,0
+1551017100,Feb 24 2019 - 2:05pm,complete,74519,Manchester United,Liverpool,Michael Oliver,27,2.08,2.31,1.89,2.32,0,0,0,0,0,0
+1551210300,Feb 26 2019 - 7:45pm,complete,31849,Cardiff City,Everton,Kevin Friend,28,1.21,0.92,1.05,1.05,0,3,3,1,0,1
+1551210300,Feb 26 2019 - 7:45pm,complete,22714,Huddersfield Town,Wolverhampton Wanderers,David Coote,28,0.36,1.46,0.47,1.21,1,0,1,0,0,0
+1551210300,Feb 26 2019 - 7:45pm,complete,30558,Leicester City,Brighton & Hove Albion,Lee Probert,28,1.08,0.62,1.42,0.68,2,1,3,1,1,0
+1551211200,Feb 26 2019 - 8:00pm,complete,48323,Newcastle United,Burnley,Craig Pawson,28,1.14,0.93,1.32,0.89,2,0,2,2,2,0
+1551296700,Feb 27 2019 - 7:45pm,complete,59618,Arsenal,AFC Bournemouth,Chris Kavanagh,28,2.5,0.69,2.37,0.84,5,1,6,3,2,1
+1551296700,Feb 27 2019 - 7:45pm,complete,27597,Southampton,Fulham,Anthony Taylor,28,0.92,0.14,1.21,0.26,2,0,2,2,2,0
+1551297600,Feb 27 2019 - 8:00pm,complete,25754,Crystal Palace,Manchester United,Martin Atkinson,28,1,1.86,1.05,1.58,1,3,4,1,0,1
+1551297600,Feb 27 2019 - 8:00pm,complete,40542,Chelsea,Tottenham Hotspur,Andre Marriner,28,2.15,2.36,2.21,1.74,2,0,2,0,0,0
+1551297600,Feb 27 2019 - 8:00pm,complete,53316,Liverpool,Watford,Graham Scott,28,2.69,1.43,2.79,1.21,5,0,5,2,2,0
+1551297600,Feb 27 2019 - 8:00pm,complete,53528,Manchester City,West Ham United,Stuart Attwell,28,2.79,1.15,2.84,1.11,1,0,1,0,0,0
+1551529800,Mar 02 2019 - 12:30pm,complete,81332,Tottenham Hotspur,Arsenal,Anthony Taylor,29,2.08,1.38,2,1.32,1,1,2,1,0,1
+1551538800,Mar 02 2019 - 3:00pm,complete,10699,AFC Bournemouth,Manchester City,Kevin Friend,29,1.79,2,1.53,2.32,0,1,1,0,0,0
+1551538800,Mar 02 2019 - 3:00pm,complete,30182,Brighton & Hove Albion,Huddersfield Town,Mike Dean,29,1.46,0.46,1.21,0.37,1,0,1,0,0,0
+1551538800,Mar 02 2019 - 3:00pm,complete,19223,Burnley,Crystal Palace,Lee Probert,29,1.31,1.21,1.21,1.53,1,3,4,1,0,1
+1551538800,Mar 02 2019 - 3:00pm,complete,74459,Manchester United,Southampton,Stuart Attwell,29,2,0.86,1.89,0.84,3,2,5,1,0,1
+1551538800,Mar 02 2019 - 3:00pm,complete,31309,Wolverhampton Wanderers,Cardiff City,Andre Marriner,29,1.5,0.62,1.79,0.74,2,0,2,2,2,0
+1551547800,Mar 02 2019 - 5:30pm,complete,59910,West Ham United,Newcastle United,Chris Kavanagh,29,1.5,0.92,1.63,1.05,2,0,2,2,2,0
+1551614400,Mar 03 2019 - 12:00pm,complete,20062,Watford,Leicester City,Jonathan Moss,29,1.54,1.29,1.42,1.32,2,1,3,1,1,0
+1551621900,Mar 03 2019 - 2:05pm,complete,24900,Fulham,Chelsea,Graham Scott,29,1.15,1.69,1.11,1.58,1,2,3,3,1,2
+1551629700,Mar 03 2019 - 4:15pm,complete,39335,Everton,Liverpool,Martin Atkinson,29,1.5,2.21,1.79,2.32,0,0,0,0,0,0
+1552134600,Mar 09 2019 - 12:30pm,complete,24972,Crystal Palace,Brighton & Hove Albion,Craig Pawson,30,0.93,0.57,1.05,0.68,1,2,3,1,0,1
+1552143600,Mar 09 2019 - 3:00pm,complete,32458,Cardiff City,West Ham United,Graham Scott,30,1.13,1.07,1.05,1.11,2,0,2,1,1,0
+1552143600,Mar 09 2019 - 3:00pm,complete,22304,Huddersfield Town,AFC Bournemouth,Anthony Taylor,30,0.53,0.64,0.47,0.84,0,2,2,1,0,1
+1552143600,Mar 09 2019 - 3:00pm,complete,32017,Leicester City,Fulham,David Coote,30,1.21,0.13,1.42,0.26,3,1,4,1,1,0
+1552143600,Mar 09 2019 - 3:00pm,complete,52242,Newcastle United,Everton,Lee Mason,30,1.27,1.07,1.32,1.05,3,2,5,2,0,2
+1552143600,Mar 09 2019 - 3:00pm,complete,31890,Southampton,Tottenham Hotspur,Kevin Friend,30,1.07,2.2,1.21,1.74,2,1,3,1,0,1
+1552152600,Mar 09 2019 - 5:30pm,complete,54104,Manchester City,Watford,Paul Tierney,30,2.8,1.33,2.84,1.21,3,1,4,0,0,0
+1552219200,Mar 10 2019 - 12:00pm,complete,53310,Liverpool,Burnley,Andre Marriner,30,2.71,0.87,2.79,0.89,4,2,6,3,2,1
+1552226700,Mar 10 2019 - 2:05pm,complete,40692,Chelsea,Wolverhampton Wanderers,Michael Oliver,30,2.21,1.36,2.21,1.21,1,1,2,0,0,0
+1552235400,Mar 10 2019 - 4:30pm,complete,60000,Arsenal,Manchester United,Jonathan Moss,30,2.53,1.93,2.37,1.58,2,0,2,1,1,0
+1552748400,Mar 16 2019 - 3:00pm,complete,10625,AFC Bournemouth,Newcastle United,Mike Dean,31,1.67,0.86,1.53,1.05,2,2,4,1,0,1
+1552748400,Mar 16 2019 - 3:00pm,complete,20719,Burnley,Leicester City,Michael Oliver,31,1.21,1.2,1.21,1.32,1,2,3,2,1,1
+1552748400,Mar 16 2019 - 3:00pm,complete,59931,West Ham United,Huddersfield Town,Jonathan Moss,31,1.6,0.43,1.63,0.37,4,3,7,3,1,2
+1552832100,Mar 17 2019 - 2:15pm,complete,25043,Fulham,Liverpool,Craig Pawson,31,1.07,2.13,1.11,2.32,1,2,3,1,0,1
+1552840200,Mar 17 2019 - 4:30pm,complete,39356,Everton,Chelsea,Anthony Taylor,31,1.47,1.79,1.79,1.58,2,0,2,0,0,0
+1553949000,Mar 30 2019 - 12:30pm,complete,25001,Fulham,Manchester City,Kevin Friend,32,1,2.07,1.11,2.32,0,2,2,2,0,2
+1553958000,Mar 30 2019 - 3:00pm,complete,30636,Brighton & Hove Albion,Southampton,Michael Oliver,32,1.57,0.8,1.21,0.84,0,1,1,0,0,0
+1553958000,Mar 30 2019 - 3:00pm,complete,20990,Burnley,Wolverhampton Wanderers,Chris Kavanagh,32,1.13,1.33,1.21,1.21,2,0,2,1,1,0
+1553958000,Mar 30 2019 - 3:00pm,complete,25193,Crystal Palace,Huddersfield Town,Lee Probert,32,0.87,0.4,1.05,0.37,2,0,2,0,0,0
+1553958000,Mar 30 2019 - 3:00pm,complete,31530,Leicester City,AFC Bournemouth,Lee Mason,32,1.33,0.8,1.42,0.84,2,0,2,1,1,0
+1553958000,Mar 30 2019 - 3:00pm,complete,74543,Manchester United,Watford,Stuart Attwell,32,2.07,1.25,1.89,1.21,2,1,3,1,1,0
+1553967000,Mar 30 2019 - 5:30pm,complete,59988,West Ham United,Everton,Paul Tierney,32,1.69,1,1.63,1.05,0,2,2,2,0,2
+1554037500,Mar 31 2019 - 1:05pm,complete,32657,Cardiff City,Chelsea,Craig Pawson,32,1.25,1.67,1.05,1.58,1,2,3,0,0,0
+1554046200,Mar 31 2019 - 3:30pm,complete,53322,Liverpool,Tottenham Hotspur,Martin Atkinson,32,2.73,2.06,2.79,1.74,2,1,3,1,1,0
+1554145200,Apr 01 2019 - 7:00pm,complete,59869,Arsenal,Newcastle United,Anthony Taylor,32,2.56,0.87,2.37,1.05,2,0,2,1,1,0
+1554230700,Apr 02 2019 - 6:45pm,complete,17301,Watford,Fulham,Roger East,33,1.64,0.13,1.42,0.26,4,1,5,2,1,1
+1554230700,Apr 02 2019 - 6:45pm,complete,31302,Wolverhampton Wanderers,Manchester United,Mike Dean,33,1.6,1.81,1.79,1.58,2,1,3,2,1,1
+1554317100,Apr 03 2019 - 6:45pm,complete,38593,Chelsea,Brighton & Hove Albion,Graham Scott,27,2.13,0.73,2.21,0.68,3,0,3,1,1,0
+1554317100,Apr 03 2019 - 6:45pm,complete,59215,Tottenham Hotspur,Crystal Palace,Andre Marriner,31,2,1.33,2,1.53,2,0,2,0,0,0
+1554317100,Apr 03 2019 - 6:45pm,complete,53559,Manchester City,Cardiff City,Jonathan Moss,33,2.81,0.57,2.84,0.74,2,0,2,2,2,0
+1554490800,Apr 05 2019 - 7:00pm,complete,31797,Southampton,Liverpool,Paul Tierney,33,1.2,2.19,1.21,2.32,1,3,4,2,1,1
+1554559200,Apr 06 2019 - 2:00pm,complete,10446,AFC Bournemouth,Burnley,Martin Atkinson,33,1.63,0.81,1.53,0.89,1,3,4,3,1,2
+1554559200,Apr 06 2019 - 2:00pm,complete,24126,Huddersfield Town,Leicester City,David Coote,33,0.5,1.31,0.47,1.32,1,4,5,1,0,1
+1554559200,Apr 06 2019 - 2:00pm,complete,51926,Newcastle United,Crystal Palace,Stuart Attwell,33,1.38,1.25,1.32,1.53,0,1,1,0,0,0
+1554642300,Apr 07 2019 - 1:05pm,complete,39400,Everton,Arsenal,Kevin Friend,33,1.56,1.36,1.79,1.32,1,0,1,1,1,0
+1554750000,Apr 08 2019 - 7:00pm,complete,40537,Chelsea,West Ham United,Chris Kavanagh,33,2.19,1,2.21,1.11,2,0,2,1,1,0
+1555095600,Apr 12 2019 - 7:00pm,complete,32108,Leicester City,Newcastle United,Chris Kavanagh,34,1.44,0.81,1.42,1.05,0,1,1,1,0,1
+1555155000,Apr 13 2019 - 11:30am,complete,58308,Tottenham Hotspur,Huddersfield Town,Lee Mason,34,2.07,0.38,2,0.37,4,0,4,2,2,0
+1555164000,Apr 13 2019 - 2:00pm,complete,30460,Brighton & Hove Albion,AFC Bournemouth,Kevin Friend,34,1.47,0.75,1.21,0.84,0,5,5,1,0,1
+1555164000,Apr 13 2019 - 2:00pm,complete,21480,Burnley,Cardiff City,Mike Dean,34,1.25,0.53,1.21,0.74,2,0,2,1,1,0
+1555164000,Apr 13 2019 - 2:00pm,complete,24971,Fulham,Everton,Lee Probert,34,0.94,1.13,1.11,1.05,2,0,2,0,0,0
+1555164000,Apr 13 2019 - 2:00pm,complete,31708,Southampton,Wolverhampton Wanderers,Jonathan Moss,34,1.13,1.25,1.21,1.21,3,1,4,3,2,1
+1555173000,Apr 13 2019 - 4:30pm,complete,74478,Manchester United,West Ham United,Graham Scott,34,2.13,0.94,1.89,1.11,2,1,3,1,1,0
+1555247100,Apr 14 2019 - 1:05pm,complete,25721,Crystal Palace,Manchester City,Martin Atkinson,34,1,2.13,1.05,2.32,1,3,4,1,0,1
+1555255800,Apr 14 2019 - 3:30pm,complete,53279,Liverpool,Chelsea,Michael Oliver,34,2.75,1.75,2.79,1.58,2,0,2,0,0,0
+1555354800,Apr 15 2019 - 7:00pm,complete,20480,Watford,Arsenal,Craig Pawson,34,1.73,1.27,1.42,1.32,0,1,1,1,0,1
+1555440300,Apr 16 2019 - 6:45pm,complete,30226,Brighton & Hove Albion,Cardiff City,Andre Marriner,31,1.38,0.5,1.21,0.74,0,2,2,1,0,1
+1555759800,Apr 20 2019 - 11:30am,complete,54489,Manchester City,Tottenham Hotspur,Michael Oliver,35,2.82,1.94,2.84,1.74,1,0,1,1,1,0
+1555768800,Apr 20 2019 - 2:00pm,complete,10511,AFC Bournemouth,Fulham,David Coote,35,1.53,0.12,1.53,0.26,0,1,1,0,0,0
+1555768800,Apr 20 2019 - 2:00pm,complete,23957,Huddersfield Town,Watford,Roger East,35,0.47,1.18,0.47,1.21,1,2,3,1,0,1
+1555768800,Apr 20 2019 - 2:00pm,complete,59960,West Ham United,Leicester City,Lee Probert,35,1.59,1.41,1.63,1.32,2,2,4,1,1,0
+1555768800,Apr 20 2019 - 2:00pm,complete,31096,Wolverhampton Wanderers,Brighton & Hove Albion,Craig Pawson,35,1.69,0.69,1.79,0.68,0,0,0,0,0,0
+1555777800,Apr 20 2019 - 4:30pm,complete,52191,Newcastle United,Southampton,Anthony Taylor,35,1.29,0.94,1.32,0.84,3,1,4,2,2,0
+1555849800,Apr 21 2019 - 12:30pm,complete,39395,Everton,Manchester United,Paul Tierney,35,1.65,1.71,1.79,1.58,4,0,4,2,2,0
+1555858800,Apr 21 2019 - 3:00pm,complete,59929,Arsenal,Crystal Palace,Jonathan Moss,35,2.59,1.35,2.37,1.53,2,3,5,1,0,1
+1555858800,Apr 21 2019 - 3:00pm,complete,33082,Cardiff City,Liverpool,Martin Atkinson,35,1.18,2.24,1.05,2.32,0,2,2,0,0,0
+1555959600,Apr 22 2019 - 7:00pm,complete,40642,Chelsea,Burnley,Kevin Friend,35,2.24,0.94,2.21,0.89,2,2,4,4,2,2
+1556045100,Apr 23 2019 - 6:45pm,complete,19170,Watford,Southampton,Mike Dean,31,1.63,0.88,1.42,0.84,1,1,2,1,0,1
+1556045100,Apr 23 2019 - 6:45pm,complete,56251,Tottenham Hotspur,Brighton & Hove Albion,Chris Kavanagh,33,2.13,0.71,2,0.68,1,0,1,0,0,0
+1556131500,Apr 24 2019 - 6:45pm,complete,31436,Wolverhampton Wanderers,Arsenal,Stuart Attwell,31,1.65,1.38,1.79,1.32,3,1,4,3,3,0
+1556132400,Apr 24 2019 - 7:00pm,complete,74431,Manchester United,Manchester City,Andre Marriner,31,2.19,2.19,1.89,2.32,0,2,2,0,0,0
+1556305200,Apr 26 2019 - 7:00pm,complete,53249,Liverpool,Huddersfield Town,Kevin Friend,36,2.76,0.35,2.79,0.37,5,0,5,3,3,0
+1556364600,Apr 27 2019 - 11:30am,complete,60043,Tottenham Hotspur,West Ham United,Anthony Taylor,36,2.18,0.88,2,1.11,0,1,1,0,0,0
+1556373600,Apr 27 2019 - 2:00pm,complete,25789,Crystal Palace,Everton,Lee Mason,36,0.94,1.06,1.05,1.05,0,0,0,0,0,0
+1556373600,Apr 27 2019 - 2:00pm,complete,23822,Fulham,Cardiff City,Chris Kavanagh,36,1.06,0.65,1.11,0.74,1,0,1,0,0,0
+1556373600,Apr 27 2019 - 2:00pm,complete,31310,Southampton,AFC Bournemouth,Graham Scott,36,1.24,0.88,1.21,0.84,3,3,6,3,1,2
+1556373600,Apr 27 2019 - 2:00pm,complete,20323,Watford,Wolverhampton Wanderers,Simon Hooper,36,1.59,1.18,1.42,1.21,1,2,3,1,0,1
+1556382600,Apr 27 2019 - 4:30pm,complete,30587,Brighton & Hove Albion,Newcastle United,Mike Dean,36,1.29,0.94,1.21,1.05,1,1,2,1,0,1
+1556449200,Apr 28 2019 - 11:00am,complete,32037,Leicester City,Arsenal,Michael Oliver,36,1.35,1.29,1.42,1.32,3,0,3,0,0,0
+1556456700,Apr 28 2019 - 1:05pm,complete,21605,Burnley,Manchester City,Paul Tierney,36,1.35,2.24,1.21,2.32,0,1,1,0,0,0
+1556465400,Apr 28 2019 - 3:30pm,complete,74526,Manchester United,Chelsea,Martin Atkinson,36,2.06,1.65,1.89,1.58,1,1,2,2,1,1
+1556910000,May 03 2019 - 7:00pm,complete,39303,Everton,Burnley,Chris Kavanagh,37,1.72,0.94,1.79,0.89,2,0,2,2,2,0
+1556969400,May 04 2019 - 11:30am,complete,10630,AFC Bournemouth,Tottenham Hotspur,Craig Pawson,37,1.44,1.83,1.53,1.74,1,0,1,0,0,0
+1556978400,May 04 2019 - 2:00pm,complete,59961,West Ham United,Southampton,Stuart Attwell,37,1.56,0.89,1.63,0.84,3,0,3,1,1,0
+1556978400,May 04 2019 - 2:00pm,complete,30456,Wolverhampton Wanderers,Fulham,Jonathan Moss,37,1.72,0.28,1.79,0.26,1,0,1,0,0,0
+1556987400,May 04 2019 - 4:30pm,complete,32133,Cardiff City,Crystal Palace,Michael Oliver,37,1.11,1.44,1.05,1.53,2,3,5,3,1,2
+1556995500,May 04 2019 - 6:45pm,complete,52206,Newcastle United,Liverpool,Andre Marriner,37,1.39,2.28,1.32,2.32,2,3,5,3,1,2
+1557061200,May 05 2019 - 1:00pm,complete,40650,Chelsea,Watford,Paul Tierney,37,2.17,1.28,2.21,1.21,3,0,3,0,0,0
+1557061200,May 05 2019 - 1:00pm,complete,24263,Huddersfield Town,Manchester United,Lee Mason,37,0.44,1.61,0.47,1.58,1,1,2,1,0,1
+1557070200,May 05 2019 - 3:30pm,complete,59965,Arsenal,Brighton & Hove Albion,Anthony Taylor,37,2.44,0.67,2.37,0.68,1,1,2,1,1,0
+1557169200,May 06 2019 - 7:00pm,complete,54506,Manchester City,Leicester City,Mike Dean,37,2.83,1.39,2.84,1.32,1,0,1,0,0,0
+1557669600,May 12 2019 - 2:00pm,complete,30662,Brighton & Hove Albion,Manchester City,Michael Oliver,38,1.28,2.28,1.21,2.32,1,4,5,3,1,2
+1557669600,May 12 2019 - 2:00pm,complete,21461,Burnley,Arsenal,Mike Dean,38,1.28,1.22,1.21,1.32,1,3,4,0,0,0
+1557669600,May 12 2019 - 2:00pm,complete,25433,Crystal Palace,AFC Bournemouth,Roger East,38,0.94,0.89,1.05,0.84,5,3,8,4,3,1
+1557669600,May 12 2019 - 2:00pm,complete,24979,Fulham,Newcastle United,Kevin Friend,38,1.17,0.94,1.11,1.05,0,4,4,2,0,2
+1557669600,May 12 2019 - 2:00pm,complete,32140,Leicester City,Chelsea,Anthony Taylor,38,1.44,1.61,1.42,1.58,0,0,0,0,0,0
+1557669600,May 12 2019 - 2:00pm,complete,53331,Liverpool,Wolverhampton Wanderers,Martin Atkinson,38,2.78,1.28,2.79,1.21,2,0,2,1,1,0
+1557669600,May 12 2019 - 2:00pm,complete,74457,Manchester United,Cardiff City,Jonathan Moss,38,2,0.61,1.89,0.74,0,2,2,1,0,1
+1557669600,May 12 2019 - 2:00pm,complete,30367,Southampton,Huddersfield Town,Lee Probert,38,1.22,0.33,1.21,0.37,1,1,2,1,1,0
+1557669600,May 12 2019 - 2:00pm,complete,60124,Tottenham Hotspur,Everton,Andre Marriner,38,2.06,1.06,2,1.05,2,2,4,1,1,0
+1557669600,May 12 2019 - 2:00pm,complete,20067,Watford,West Ham United,Chris Kavanagh,38,1.5,1,1.42,1.11,1,4,5,2,0,2
