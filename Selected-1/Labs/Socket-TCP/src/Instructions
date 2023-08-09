@@ -1,0 +1,38 @@
+	1	Supported Clients:
+	•	Create a server that listens for incoming client connections.
+	•	Whenever a client connects, spawn a new thread to handle the client's requests.
+	•	Maintain a list of connected clients so that you can send messages to all of them.
+	2	Logging into the application:
+	•	Create a database or file to store user credentials.
+	•	When a client attempts to log in, query the database or file to check if the username and password are correct.
+	•	If the login is successful, send a message to the client indicating success and allow them to proceed.
+	•	If the login fails, send an appropriate error message to the client.
+	3	Game Setup:
+	•	Create a class to represent a game configuration, which includes information such as the number of incorrect guesses needed to lose the game and the maximum and minimum number of players per team.
+	•	Load the necessary files on server startup and store the information in memory or a database.
+	•	Create a lookup table containing the phrases to be guessed.
+	4	Game Options:
+	•	After a client logs in, present them with a menu of game options.
+	•	If the client chooses to play as a single player, start a new game with a randomly selected phrase.
+	•	If the client chooses to play with multiple players, prompt them to create or join a team.
+	5	Teams:
+	•	Create a class to represent a team, which includes information such as the team name and a list of players.
+	•	When a client creates a new team, create a new Team object and add the client to the list of players.
+	•	When a client joins an existing team, add the client to the list of players for that team.
+	•	Check that the number of players in both teams are equal before starting the game.
+	6	The Game:
+	•	When a game starts, select a phrase from the lookup table and replace each letter with an underscore character.
+	•	Present the phrase to all clients in the game as underscores.
+	•	In each turn, prompt the player to guess a letter.
+	•	If the letter is correct, replace the corresponding underscores with the correct letter and update the player's score.
+	•	If the letter is incorrect, increment the number of attempts and update the player's score.
+	•	The game ends when the users are out of attempts or when the phrase has no more hidden characters.
+	7	Number of Attempts:
+	•	Keep track of the number of attempts remaining for each player.
+	•	Whenever a player makes an incorrect guess, decrement their remaining attempts and send a message to all clients indicating the new number of attempts.
+	8	Scores:
+	•	Keep track of each player's score throughout the game.
+	•	At the end of the game, update each player's score history and display their score to them.
+	•	Store the score history in a database or file for later retrieval.
+
+
