@@ -1,0 +1,172 @@
+* Linux Users (User ID)
+
+1 - root	(0)
+2 - service users (from 1 to 999)
+3 - normal users  (starting from 1000+)
+
+*************************************************
+
+Command: ps aux
+Description: prints all the system processes
+*******************************************************************
+
+Command: useradd [username]
+Description: creates new user with the specified username
+*******************************************************************
+
+Command: cat /etc/passwd
+Description: prints all the users in the system
+username:password:userid:primarygroupid:alias:user directory: user default shell directory
+*******************************************************************
+
+Command: cat /etc/shadow
+Description: prints all the passwords of the users but encrypted
+*******************************************************************
+
+Command: passwd [username]
+Description: change password for a specified user
+*******************************************************************
+
+Command: which bash
+Description: prints the path of user bash
+*******************************************************************
+
+Command: useradd [username] -c [alias] -s [default shell path]
+Description: creates new user and set his alias & default user shell 
+*******************************************************************
+
+Command: useradd [username] -p [user password] -u [user id]
+Description: creates new user and set his password and user id
+*******************************************************************
+
+Command: useradd [username] -e [date] ex: useradd ahmed -e 2021-12-31
+Description: creates new user and set its expiration date
+*******************************************************************
+
+Command: usermod [username] -c [alias] -s [default shell path]
+Description: modifies the alias and default shell of existing user
+*******************************************************************
+
+Command: usermod --help
+Description: to display all the options of modifying user account info
+
+*******************************************************************
+
+Command: id
+Description: displays current user info
+
+*******************************************************************
+
+Command: id [username]
+Description: displays the info of the specified user name
+*******************************************************************
+
+Command: id -u [username]
+Description: displays only the user id of the specified username 
+*******************************************************************
+
+Command: groupadd [group name]
+Description: creates new group
+*******************************************************************
+
+Command: groupmod [group name] -g [group id]
+Description: modifies the group id
+*******************************************************************
+
+Command: cat /etc/group
+Description: prints all the existing groups
+groupname:user password:group id:included users in the group  
+*******************************************************************
+
+Command: usermod [username] -G [group name]
+Description: add the specified user to the specified group 
+	     as a secondary group for this user by overriding
+*******************************************************************
+
+Command: usermod [username] -aG [group name]
+Description: add the specified user to the specified group 
+	     as a secondary group for this user by appending
+*******************************************************************
+
+Command: usermod [username] -s [shell path] 
+	 ex: usermod ahmed -s /usr/sbin/nologin
+Description: this command makes the user has no shell and also has no login access 
+*******************************************************************
+
+Command: groupmod -n [new name] [old name]
+Description: modifies the name of the group
+*******************************************************************
+
+Command: su [username]
+Description: switch to this username
+*******************************************************************
+
+Command: su - [username]
+Description: switch to this username and go to its default home directory
+*******************************************************************
+
+Command: exit 
+Description: means logout and switch to the previous user
+*******************************************************************
+
+Command: sudo
+Description: a word to force the command as if you are root
+*******************************************************************
+
+Command: sudo passwd [username]
+Description: change password of another user
+*******************************************************************
+
+Command: sudo apt update
+Description: update all the indices of apt repositories
+*******************************************************************
+
+Command: vim /etc/sudoers
+Description: this file contains the privilages of the users
+*******************************************************************
+
+Command: usermod -L [username]
+Description: lock the specified user
+*******************************************************************
+
+Command: usermod -U [username]
+Description: unlock the specified user
+*******************************************************************
+
+Command: userdel [username]
+Description: delete the specified user without user default directory
+*******************************************************************
+
+Command: userdel -r [username]
+Description: delete the specified user and the user default directory
+*******************************************************************
+
+Command: groupdel [group name]
+Description: delete the specified group
+*******************************************************************
+
+Command: name=ahmed
+Description: create new variable and assign to it value 'ahmed'
+*******************************************************************
+
+Command: echo $[varname] ex: echo $ahmed
+Description: prints the value of the specified variable
+*******************************************************************
+
+Command: ex: echo "my name is $name"
+Description: using variable inside double quotes, 
+	     prints my name is ahmed
+*******************************************************************
+
+Command: ln [target file] [link]
+Description: creates hard link for the target file
+*******************************************************************
+
+Command: ln -s [target file] [link]
+Description: create a soft link for the target file
+*******************************************************************
+
+Command: ls -li [file1] [file2] ...
+Description: list the specified files in long list format
+	     inode:type&permission:links:owner user:owner group:size:timestamp:file name
+*******************************************************************

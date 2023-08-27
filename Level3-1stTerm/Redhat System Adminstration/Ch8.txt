@@ -1,0 +1,53 @@
+echo $$ 
+
+bash
+
+echo $$ 
+
+exit // terminate child process
+
+----------------------------------
+
+ps // show running process 
+
+ps aux // show running process in detailed 
+ps -aux   
+
+
+ps aux | grep <process_name> 
+
+----------------------------------
+
+-i // make lowercase , example:
+ps aux | grep <process_name> 
+
+----------------------------------
+
+// show parent process id 
+ps -l = ps -ef
+
+---------------------------------
+
+pstree // show tree process
+
+
+psfax // show tree process in different format 
+
+-------------------------------
+
+top // show dynamic status 
+aux // show statics status 
+
+-----------------------------
+
+gnome-system-monitor
+
+   
+   
+
+
+
+ls /proc/ 
+
+kill    
+

@@ -1,0 +1,137 @@
+Command: pwd
+Description: print current working directory 
+**************************************************
+
+Command: cd [target path]
+Description: change directory to a target path
+**************************************************
+
+Command: ls
+Description: list all the content of current directory 
+**************************************************
+
+Command: dir 
+Description: list all the content of current directory
+**************************************************
+
+Command: dir --color 
+Description: list all the content of current directory (colored)
+**************************************************
+
+Command: ls -l
+Description: list the content as a long list
+**************************************************
+
+Command: ls -lh 
+Description: list as long list - human readable 
+	     and sort them by name Ascendingly
+**************************************************
+
+Command: ls -lt
+Description: list them as long list and sort them
+	     according to timestamp 
+**************************************************
+
+Command: ls -lr 
+Description: list and sort them according to name
+	     but Descendingly
+**************************************************
+
+Command: ls -a
+Description: list all files and also the hidden ones
+**************************************************
+
+Command: ls -la
+Description: list all files as long list 
+	     and also the hidden ones
+**************************************************
+
+Command: ls [target path]
+Description: list the files of the target path
+**************************************************
+
+Command: touch [filename][file extension]
+Description: creating new file 
+	     or modify timestamp of exisiting file 
+**************************************************
+
+Command: date 
+Description: print the current date and time
+**************************************************
+
+Command: ls -lR
+Description: list files of current directory and
+	     recursively list all the sub directories
+	     and their content
+**************************************************
+
+Command: mkdir [directory name]
+Description: create new folder
+**************************************************
+
+Command: mkdir -p dir1/dir2/dir3
+Description: create new directories recursively
+**************************************************
+
+Command: cp [source file path][destination file path]
+Description: copy source file to destination
+**************************************************
+
+Command: cp -r [source directory path] [target directory path]
+Description: copy source folder to destination path
+**************************************************
+
+Command: echo [message]
+Description: prints a message on screen
+**************************************************
+
+Command: cat [file path]
+Description: prints the content of the file
+**************************************************
+
+Command: ls [path] > [file]
+Description: prints the output to the specified file
+	     by overwriting its content
+**************************************************
+
+Command: ls [path] >> [file]
+Description: prints the output to the specified file
+	     by appending on its content
+**************************************************
+
+Command: echo [message] > [file]
+Description: redirect and write message to file
+	     by overwriting its content
+**************************************************
+
+Command: echo [message] >> [file]
+Description: redirect and write message to file
+	     by appending on its content
+**************************************************
+
+Command: date >> [file]
+Description: writes date to file
+**************************************************
+
+Command: find [target path] -name [file name]
+Description: search for the specified file name in the target path
+**************************************************
+
+Command: find [target path] -name [file name] > [specified file]
+Description: outputs the result to specified file
+**************************************************
+
+Command: less [filename]
+Description: prints the content of file page by page
+	     navigate through pages using space
+	     quit from command using 'q'
+**************************************************
+
+Command: more [filename]
+Description: prints the content of the file by a percentage
+**************************************************
+
+Command: pipelines
+Description: cat file1.txt | less
+	     ls -lR / | less
+**************************************************

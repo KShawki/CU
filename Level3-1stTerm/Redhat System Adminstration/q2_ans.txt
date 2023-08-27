@@ -1,0 +1,79 @@
+
+///////////////////////////
+///////////////////////////
+
+1)
+server=8.208.87.219
+
+2)
+ssh st<your_id>@$server
+yes
+st<your_id>
+
+3)
+pwd | tee currentdir.txt
+
+4)
+mkdir -p "RedHat Admin 1/Quiz 2"
+cd Red * then pressed tab *
+cd Quiz * then pressed tab *
+
+5)
+touch output.txt
+pwd > output.txt
+
+6)
+id >> output.txt
+
+7)
+touch perms.txt
+ls -la output.txt > perms.txt
+
+8)
+chmod 644 output.txt
+
+9)
+ls -la output.txt >> perms.txt
+
+10)
+touch myprocesses.txt
+ps j > myprocesses.txt
+
+11)
+touch allprocesses.txt
+ps aux > allprocesses.txt
+
+12)
+sleep 1000 & * process id = 5783 *
+sleep 60 & * process id = 5917 *
+
+13)
+touch jobs.txt
+jobs > jobs.txt
+* wait 60 sec*
+
+jobs >> jobs.txt
+jobs
+kill 5783
+jobs >> jobs.txt
+
+
+w | tee users.txt
+exit
+ssh-keygen
+* enter *
+<your_id>
+<your_id>
+
+eval $(ssh-agent) * agent pid : 417 *
+
+cd ~/.ssh
+
+ssh-copy-i -i id_rsa.pub st<your_id>@$server
+ssh st<your_id>@$server
+* passphrase : <your_id> * 
+
+
+touch keylogin.txt
+echo "Logged in with key" > keylogin.txt
+exit 

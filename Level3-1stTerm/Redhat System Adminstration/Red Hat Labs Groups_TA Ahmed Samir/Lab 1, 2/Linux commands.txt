@@ -1,0 +1,195 @@
+Command : pwd
+Description: prints current working directory
+**************************************************
+Command: date
+Description: prints the current date time
+**************************************************
+
+Command: cal [arg1: month] [arg2: year]
+Description: prints the calendar
+**************************************************
+
+Command: clear 
+Description: clear the terminal lines
+**************************************************
+
+Command: cd 
+Description: change directory to the user home directory 
+**************************************************
+
+Command: cd ~
+Description: go to the user home directory
+**************************************************
+
+Command: cd [path] ex: cd /home
+Description: change directory to the target path
+**************************************************
+
+Command: cd -
+Description: go to the previous directory
+**************************************************
+
+Command: cd ..
+Description: go to the parent directory (up one level)
+**************************************************
+
+Command: cd ../..
+Description: go to the parent of parent directory (up two levels)
+**************************************************
+
+Command: whoami
+Description: prints the name of current user
+**************************************************
+
+Command: ls
+Description: list all files of current directory
+**************************************************
+
+Command: ls -l 
+Description: -l is an option, stands for long list
+**************************************************
+
+Command: ls -a  
+Description: list all files including hidden files (starting with dot)
+**************************************************
+
+Command: ls -l -a
+Description: list all files as a long list including hidden files 
+**************************************************
+
+Command: ls --help
+Description: list all the options of this command
+**************************************************
+
+Command: ls [path] ex: ls /home
+Description: list the files inside the target path
+**************************************************
+
+Command: ls [option] [arg] ex: ls -l /home 
+Description: list the files inside the target path as long list
+**************************************************
+
+Command: tty 
+Description: stands for tele type which prints terminal file name
+**************************************************
+
+Command: chvt [terminal number] ex: chvt 1
+Description: stands for change virtual terminal, navigate to the target terminal
+**************************************************
+
+Command: exit
+Description: exits the current terminal
+**************************************************
+
+Command: passwd
+Description: changes the user password
+**************************************************
+
+Command: file [filepath] 
+Description: prints the type of file
+**************************************************
+
+Command: which [command] ex: which passwd
+Description: prints the location where this command stores its files
+**************************************************
+
+Command: cat [filepath] ex: cat /home/student/log
+Description: prints the text inside the target file
+**************************************************
+
+Command: head [filepath] ex: head /home/student/log
+Description: prints the first 10 lines of the target file 
+**************************************************
+
+Command: head [option][filepath] ex: head -n 5 /home/student/log
+Description: prints the first 5 lines of the target file
+**************************************************
+
+Command: tail [filepath] ex: tail /home/student/log
+Description: prints the last 10 lines of the target file
+**************************************************
+
+Command: tail [option][filepath] ex: tail -n -5 /home/student/log
+Description: prints the last 5 lines of the target file
+**************************************************
+
+Command: wc [filepath] ex: wc /home/student/log
+Description: prints the number of lines, words, characters inside the target file
+**************************************************
+
+Command: wc [filepath][option] ex: wc /home/student/log -l
+Description: prints the number of lines inside the target file
+**************************************************
+
+Command: wc [filepath][option] ex: wc /home/student/log -w
+Description: prints the number of words inside the target file
+**************************************************
+
+Command: wc [filepath][option] ex: wc /home/student/log -c
+Description: prints the number of characters inside the target file
+**************************************************
+
+Command: tab for auto completion
+Description: displays the possible commands / files
+**************************************************
+
+Command: history
+Description: prints all the previously typed commands on this shell, 
+			 stores all this commands in file called .bash_history
+**************************************************
+
+Command: history -c
+Description: clear history buffer
+**************************************************
+
+Command: touch file1.txt
+Description: create new file called "file1"
+**************************************************
+
+Command: touch file2 file3 file4
+Description: create multiple files
+**************************************************
+
+Command: mv [filename] [filepath] ex: mv file1.txt public/docs
+Description: move the target file to the target path
+**************************************************
+
+Command: mv [filepath] [.]  ex: mv Public/docs/file1.txt .
+Description: move the target file to current directory
+**************************************************
+
+Command: mv filename1 filename2  ex: mv file1.txt  file2.txt
+Description: rename filename1 to be named as filename2
+**************************************************
+
+Command: mv file1.txt Public/docs/file2.txt
+Description: move file1 to the target path and rename it to be file2
+**************************************************
+
+Command: cp [/file/path] [/destination/path] ex: cp file1.txt  Public/docs/  
+Description: copy the target file to the target path
+**************************************************
+
+Command: mkdir [directory name]
+Description: make new folder [directory] inside the current directory
+**************************************************
+
+Command: mkdir -p projects/linux/fundamentals 
+Description: makes new directory fundamentals inside projects/linux directory
+**************************************************
+
+Command: rmdir [directory name] 
+Description: remove directory
+**************************************************
+
+Command: rm [filename] ex: rm file1.txt
+Description: remove the target file from current directory 
+**************************************************
+
+Command: rm -R [directory name] ex: rm -R projects
+Description: removes the target directory and all its content recursively
+**************************************************
+
+Command: 
+Description: 
+**************************************************
