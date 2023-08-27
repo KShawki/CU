@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/shawqikh/Desktop/FCAI-CU/Algorithms/Assignments/Problem11/main.cpp
+iostream
+-
+algorithm
+-
+math.h
+-
+

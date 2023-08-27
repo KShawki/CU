@@ -1,0 +1,48 @@
+    /*
+     * given a list of numbers, select the Kth number.  This means you can select the median, or smallest, or largest, or 10th largest, etc number from your list.
+     * This method uses in place sorting similar to in place quicksort.  Because of this, its extra memory is done in O(1) time.  AND because each time we go through the 
+     * list we eliminate (on average) half the list, its expected time is O(n).  however, if the pivot selected is always the max or min, you can          have a worst case of
+     * O(n^2).  
+     * @return int  the kth value from the list you pass in
+     * @param int[] x:  a list of numbers
+     * @param k: the kth element you want, can be median, biggest, smallest, etc.  make sure k<x.length == true
+     */
+    public int selectKth(int[] x, int k){
+    	//dont work if the list isnt there or if they want a k that doesnt exist
+    	if(x == null || x.length < k)
+    		throw new Error();
+
+    	
+    	int left = 0;
+    	int right = x.length-1;
+
+    	//we stop when our indicies have crossed
+    	while (left < right){
+
+    		int pivot = (left + right)/2; //this can be whatever
+    		int pivotValue = x[pivot];
+    		int storage=left;
+
+    		x[pivot] = x[right];
+    		x[right]=pivotValue;
+    		for(int i =left; i < right; i++){//for each number, if its less than the pivot, move it to the left, otherwise leave it on the right
+    			if(x[i] < pivotValue){
+    				int temp =x[storage];
+    				x[storage] = x[i];
+    				x[i]=temp;
+    				storage++;
+    			}
+    		}
+    		x[right]=x[storage];
+    		x[storage]=pivotValue;//move the pivot to its correct absolute location in the list
+
+    		//pick the correct half of the list you need to parse through to find your K, and ignore the other half
+    		if(storage < k)
+    			left = storage+1;
+    		else//storage>= k
+    			right = storage;
+
+    	}
+    	return x[k];
+
+    }
