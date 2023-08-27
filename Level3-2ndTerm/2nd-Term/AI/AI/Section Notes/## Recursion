@@ -1,0 +1,7 @@
+## Recursion
+
+// base case
+sumToN(1,1).
+sumToN(N,R):-
+	NewN is N-1
+	
