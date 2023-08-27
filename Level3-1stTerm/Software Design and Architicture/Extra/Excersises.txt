@@ -1,0 +1,5 @@
+Class Diagram Excersise and Solutions:
+
+https://silvae86.github.io/teaching/
+
+https://silvae86.github.io/teaching/exercises/uml/class/
