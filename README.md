@@ -1,6 +1,3 @@
-<center>
-<p style="font-size: 24px; margin-bottom: 0px;">Cairo University</p>
-Software Enginnering Program
-<hr />
-</center>
+# Cairo University
+Software Engineering Program 2019 - 2023
 
